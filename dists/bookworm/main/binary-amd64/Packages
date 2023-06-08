@@ -1,0 +1,121 @@
+Package: blesh
+Version: 0.3.3
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/b/blesh/blesh_0.3.3_all.deb
+Size: 162864
+SHA256: f45390cba8413720368bd8ead646617c7649ab4edb415841e5fa98cc0de3a70b
+SHA1: bb393eef9e19593c08c296ed8edf7a9f0f2c9508
+MD5sum: 33ee7ef30909916d4a158bb641bb5b56
+Description: provide fish-like experience for bash
+
+Package: firmware-b43
+Version: 1.0
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/f/firmware-b43/firmware-b43_1.0_amd64.deb
+Size: 145632
+SHA256: 98bcdc63bd47b255420074a9ffe225418c13eb9f0a2ab9930fd71a4b32b3230a
+SHA1: fcba34e419c0e32b8e8d5ca2a0b73e3a40949f60
+MD5sum: b3bf5eef65acead3886958204d674da9
+Description: Linux extra firmware for b43
+
+Package: firmware-edge-installer
+Version: 0.2
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Depends: git
+Priority: optional
+Section: debianeasy
+Filename: pool/main/f/firmware-edge-installer/firmware-edge-installer_0.2_all.deb
+Size: 1128
+SHA256: 14d9dd30ac0bfb42458f2129bff1cbea6ff1bcee514eb5fddbdbe161b5bdc748
+SHA1: 3d1394628718bdb33729237db9dbd18393ae2fe6
+MD5sum: 56bb3b7eaded759bf77facf34defc287
+Description: installer from edge firmware from kernel.org
+
+Package: node-locker
+Version: 0.1
+Architecture: all
+Depends: node-passwd
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/node-locker/node-locker_0.1_all.deb
+Size: 2872
+SHA256: c76e09e01142f5a751577a4838006e5339e12ebb4ab869618dbf4679ec26ec91
+SHA1: 0a7324b1935735286712af571ea87f8965a0fae1
+MD5sum: b86b0d964242dd229c48b6a1e309e49a
+Description: node's screen locker
+
+Package: node-passwd
+Version: 0.2
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/node-passwd/node-passwd_0.2_amd64.deb
+Size: 3800
+SHA256: 78ab266ed34cadafe2d2b0e941d28c5ef62e5420de3945522e65cc27ab4c1589
+SHA1: 507c2f01a6921458676c7809c819f7c4a1ceef94
+MD5sum: 9565a5b997448ce286147da6c07c5c4c
+Description: node's password detect
+
+Package: nodepm
+Version: 0.5.0
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm/nodepm_0.5.0_all.deb
+Size: 9372
+SHA256: 50ac7b2bc78de9c06bafa99ad65532263bcc9d8d91264c822e9e8e221528080e
+SHA1: c6200eb14c19f676c3b8d65c8e7c6df10c9f38e5
+MD5sum: 792e96b548340b6bcb65184c0f1e6cb0
+Description: NOne-DEsktop Power Manager
+
+Package: nodepm-tray
+Version: 0.2.4
+Architecture: all
+Depends: nodepm
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm-tray/nodepm-tray_0.2.4_all.deb
+Size: 39021388
+SHA256: 13cc483210bcf7728184891fabf8801b62ae25366715a7135abc8f5e4e45e022
+SHA1: 5dbc2a1506656de95027e600bef386b79cad9241
+MD5sum: 15a65aa31698bfb808659aab86d8fad3
+Description: nodepm tray 
+
+Package: nodepm-user
+Version: 0.2.1
+Architecture: all
+Depends: nodepm
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm-user/nodepm-user_0.2.1_all.deb
+Size: 1840
+SHA256: 71665232a3e2526ec6889dc5b4e03114c7e99029904d6ca618dd9776d3c59085
+SHA1: 2d6593968c4293001bcbbb99d9ac89666b4b81a1
+MD5sum: 669a08e014d5280e47512653c454c83d
+Description: nodepm non-root program
+
+Package: wall2notify
+Version: 0.6.1
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/w/wall2notify/wall2notify_0.6.1_all.deb
+Size: 2844
+SHA256: fde9425be0f99370dc672245e846b7a54756e23bcf76a277b3d6317d3ae51b4f
+SHA1: 73d22ae917569f15fe60d5c1faa70e23e2fc9760
+MD5sum: c58d7fbd7f006c8845c256fee6102b5d
+Description: send wall message to notify-send
+

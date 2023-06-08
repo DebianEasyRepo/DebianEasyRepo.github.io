@@ -1,0 +1,5 @@
+Component: main
+Origin: Debian Easy repo for Bookworm
+Label: Debian Easy repo for Bookworm
+Architecture: amd64
+Description: Debian Easy repo for Bookworm

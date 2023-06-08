@@ -4,3 +4,4 @@ Codename: bookworm
 Architectures: amd64
 Components: main
 Description: Debian Easy repo for Bookworm
+SignWith: E82A8A49BDEC7D3F515B6BB13F6D85E56F090321

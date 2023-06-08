@@ -4,4 +4,3 @@ Codename: bookworm
 Architectures: amd64
 Components: main
 Description: Debian Easy repo for Bookworm
-SignWith: yes

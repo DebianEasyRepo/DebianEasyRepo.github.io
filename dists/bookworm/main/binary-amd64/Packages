@@ -11,6 +11,19 @@ SHA1: bb393eef9e19593c08c296ed8edf7a9f0f2c9508
 MD5sum: 33ee7ef30909916d4a158bb641bb5b56
 Description: provide fish-like experience for bash
 
+Package: debianeasy-repo
+Version: 0.1
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/d/debianeasy-repo/debianeasy-repo_0.1_amd64.deb
+Size: 2644
+SHA256: 778e713b9bc30132087ee646ad19ea43ea877fd9727dfcb3bfe976912be62b0f
+SHA1: 1dab4990140f2f263d90d67964c21ae95bd5c211
+MD5sum: 86da5a3f82e4d314e0f1936eda45d65d
+Description: provide DEbianEasy repository
+
 Package: firmware-b43
 Version: 1.0
 Architecture: amd64

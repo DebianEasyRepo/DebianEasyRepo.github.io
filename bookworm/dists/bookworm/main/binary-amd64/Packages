@@ -51,6 +51,23 @@ SHA1: 3d1394628718bdb33729237db9dbd18393ae2fe6
 MD5sum: 56bb3b7eaded759bf77facf34defc287
 Description: installer from edge firmware from kernel.org
 
+Package: grub-btrfs
+Version: 4.11-0kali2
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 58
+Depends: btrfs-progs, grub2-common, gawk
+Homepage: https://github.com/Antynea/grub-btrfs
+Priority: optional
+Section: debianeasy
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.11-0kali2_all.deb
+Size: 13644
+SHA256: ddebe2a9236f1462f5bf64bcce70f6ec59b63a38d388f9b743cf2d1975c27a16
+SHA1: 88cd67f86cd5ec9c527666aa83acd3684133ae08
+MD5sum: 4ea2a9b72ba84b6ca700604a3feca1b7
+Description: Adds "btrfs snapshots" to the grub menu
+ This package improves grub by adding "btrfs snapshots" to the grub menu
+
 Package: linux-backports-amd64
 Version: 0.0.0-0
 Architecture: amd64

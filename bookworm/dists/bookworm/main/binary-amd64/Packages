@@ -11,6 +11,973 @@ SHA1: bb393eef9e19593c08c296ed8edf7a9f0f2c9508
 MD5sum: 33ee7ef30909916d4a158bb641bb5b56
 Description: provide fish-like experience for bash
 
+Package: budgie-app-launcher-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 106
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gmenu-3.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, gnome-menus, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-app-launcher-applet_1.6.0-1_all.deb
+Size: 22128
+SHA256: 1c30ce7592a83d883bc337974d2a5b024f5717f55c36abe2267925e0e331d0ec
+SHA1: d83053a153935cc510945ab4f79af8e6ec708791
+MD5sum: d98743451618e2720599fcdf23a91133
+Description: Applet to provide an alternative means to launch applications
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The app-launcher applet allows the ability to add favorite apps to the
+ panel as well as finding and launching applications.  The list of
+ applications listed can be easily configured to be visible or hidden.
+
+Package: budgie-applications-menu-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 668
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.68.0), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.80.0), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0), libplank1 (>= 0.11.89)
+Recommends: switcheroo-control
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-applications-menu-applet_1.6.0-1_amd64.deb
+Size: 175492
+SHA256: b9ffb3265571a83b98a26cf6605decc2da36f2375799383bf8c7a605f87de784
+SHA1: 1ee679fde04df32f7a36029e6b3d19047c6ec4ff
+MD5sum: 708075570db944fed8abde5a5d010676
+Description: Stylish Applications Menu for Budgie-Desktop
+ Budgie-Desktop is a GTK+ based desktop environment which focuses on
+ simplicity and elegance.  It provides a traditional desktop metaphor
+ based interface utilising customisable panel based menu driven system.
+ Budgie-Desktop is written from scratch utilising many GNOME based
+ sub-systems such as GNOME-Session and Mutter.
+ .
+ The application-menu is a stylish panel applet that displays applications
+ in different views - grid and list. Weblinks typed into the search bar
+ can be opened in your default browser. Applications that have additional
+ desktop options show via a right-click menu. Applications with associated
+ actions show those actions are additional searchable entries.
+ .
+ Variety of options are available including grid sizing and displaying a
+ powerstrip.
+
+Package: budgie-applications-menu-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 926
+Depends: budgie-applications-menu-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-applications-menu-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 763576
+SHA256: c87634f49492b2cf4ac21fdf617e3aece27a3522c94d1ead30b68ddbf0f86e9f
+SHA1: cd190c2d5aa02ebdf8b6f0d4f73c1eb88beb222e
+MD5sum: ba0a1323fe44523a7c15572c710ad5dc
+Description: debug symbols for budgie-applications-menu-applet
+Build-Ids: 173bc9ef1b5a70736bfa5a67d3b2c315886e2531
+
+Package: budgie-brightness-controller-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 144
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.5.12), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-brightness-controller-applet_1.6.0-1_amd64.deb
+Size: 39180
+SHA256: 33426adfba6be56a011aedfb2464076ec9c82677a497fbd44bccf125b8e9dc54
+SHA1: 6cda4d1ab7e147f118d470e5a701576dfc9b3d77
+MD5sum: 5b038392f0639cde669571dc4a6aab55
+Description: Applet to control the brightness of the screen
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ The brightness controller applet allows controlling of the screen
+ levels via xrandr (fallback) or via gnome-settings-daemon (if available)
+
+Package: budgie-brightness-controller-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 166
+Depends: budgie-brightness-controller-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-brightness-controller-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 129804
+SHA256: a9aa6a698e6513f8bd95c2fb8dcc20f3f83c3d17fe2c245771316154bd1c7849
+SHA1: 266e89cb6d5d61a9cf0c6ecb32d4d7096724064e
+MD5sum: a277ed0dfd2a14a5355ce7e9e230f07d
+Description: debug symbols for budgie-brightness-controller-applet
+Build-Ids: 15673639da6cca99cf922e3130c2a8845c75f860
+
+Package: budgie-clockworks-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 76
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-cairosvg, python3-gi, python3-pil, python3-svgwrite, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-clockworks-applet_1.6.0-1_all.deb
+Size: 19776
+SHA256: df6fb497c9db7b15a7d6c8c59a7c35761fd69cd37fc4409e995eca5b1e131aaf
+SHA1: 72b483aa6015e68a13fd7cbf9c39c7a38060e770
+MD5sum: 2b97fc27b42dfd6ab6785e1a1f16e371
+Description: Applet to display clock across multiple time zones
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Clockworks applet displays the current time across multiple
+ time zones.
+
+Package: budgie-countdown-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 93
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, sound-theme-freedesktop, vorbis-tools, zenity, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-countdown-applet_1.6.0-1_all.deb
+Size: 32616
+SHA256: f43c39d2dcb02938dd1ae0ece84dc9ed9640bfb389511b635b6a7b57a642c763
+SHA1: a4f8ae4968dd0a214911c02439dd74bece3d3e82
+MD5sum: 46ed0df37f6e5c0248a1afee2dac27a6
+Description: Applet providing a countdown capability on the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Countdown applet provides the user the ability to start an
+ action when the countdown reaches 0 seconds. Actions include flashing
+ an icon in the panel, opening a notification window, sounding a
+ bell or running a custom command.
+
+Package: budgie-dropby-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 91
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, gir1.2-wnck-3.0, python3, python3-gi, python3-psutil, python3-pyudev, util-linux (>= 2.31.1), wmctrl, zenity, libnotify-bin, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-dropby-applet_1.6.0-1_all.deb
+Size: 21456
+SHA256: c2b4b78fc5132b5e621a6c6ece52170c76ccec604e7c0b2848a5905d83704300
+SHA1: 303f5e6c1547194cf60df7507479c7bcaa2b5b84
+MD5sum: e524186b73f04d852b3ace0fb7fdd4e0
+Description: Applet to popup when a USB device is connected
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The DropBy applet pops up in the panel when connecting a usb device.
+ The applet subsequently offers the option(s) to mount, unmount/eject
+ and in case of a flash drive, to make a local copy of the drive's
+ content. The info shows the free space on the volume.
+ .
+ The applet is context- sensitive, meaning: it only shows its icon in
+ the panel if, and as long as, any usb drive is connected.
+
+Package: budgie-extras-common
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 492
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-extras-common_1.6.0-1_amd64.deb
+Size: 95088
+SHA256: f9454ac1c18c52c25749add350023cf92e7734e4fd7a0cb620c27ae6c9f57084
+SHA1: a58511a3eb7ddbedc98736a544e72ac64d237982
+MD5sum: 0bab305ff8fb451ff2ec5f6afeabdec4
+Description: Shared component of budgie-extras applets
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The shared component provides for capabilities that are utilised between
+ budgie-extra applets.
+
+Package: budgie-extras-daemon
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 115
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), libkeybinder-3.0-0 (>= 0.3.0)
+Suggests: budgie-applications-menu-applet, plank
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-extras-daemon_1.6.0-1_amd64.deb
+Size: 29976
+SHA256: a4413f83ec76e63b7b4294da3c26fc756d98335ed2b390b296e12638c849a291
+SHA1: 15e3085cdcfcb732df108391cbdb9743903cc9bc
+MD5sum: fdd5e677c267544267c4cd05fcaed622
+Description: Extras daemon for budgie-extras capabilities
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ Budgie-Extras-Daemon provides both global keybinding and D-Bus functionality
+ for various extras applets and applications.
+
+Package: budgie-extras-daemon-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 87
+Depends: budgie-extras-daemon (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-extras-daemon-dbgsym_1.6.0-1_amd64.deb
+Size: 64580
+SHA256: e6bf940d6463bca2d122685d45d94b17538ccd6dd0672212c35858aad9263832
+SHA1: 44ea5a6063c4a6780c259048c70ea45a4578a15f
+MD5sum: 29427866f76c6d82bd21665c05efb11e
+Description: debug symbols for budgie-extras-daemon
+Build-Ids: cdc066f6a55a137fb649713b6474d6f20aef992f
+
+Package: budgie-fuzzyclock-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 90
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.11.5), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-fuzzyclock-applet_1.6.0-1_amd64.deb
+Size: 26456
+SHA256: 79543b662d89d0a3495668ae7b2ec7f272dbe46add4eb3ff413f69413e352bc4
+SHA1: 5ed38eed9fa222fe8469fc6a713f26f6087d8147
+MD5sum: 2313c38f513a1143038559580713c859
+Description: Show the time in a fuzzy way
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ Displays the time in a 'spoken' format such as five past six.
+
+Package: budgie-fuzzyclock-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 80
+Depends: budgie-fuzzyclock-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-fuzzyclock-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 60904
+SHA256: 55920717e116890b425caf6018b10963bd743c676554e0a3038ffe08d38079a1
+SHA1: f8e64c032fb9d4f44fdb6ef6acef72e6c4e86252
+MD5sum: fa8cc11cb2fa0dc92e860f464e2b8b88
+Description: debug symbols for budgie-fuzzyclock-applet
+Build-Ids: a0f9edc3180912892de67e59441194a34fcf7754
+
+Package: budgie-hotcorners-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 215
+Depends: budgie-extras-common, gnome-screensaver, libnotify-bin, xdotool, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-hotcorners-applet_1.6.0-1_amd64.deb
+Size: 48484
+SHA256: 6c5bc52ec357cd152d87b8066987384e96b512cc4e7d559b3ad31372ec692a86
+SHA1: 39d8bcd7d618227b2533c867151e38e0fcabe205
+MD5sum: a6bd4e5e2cb11269758b2b9da90a1f10
+Description: Applet providing hotcorners capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The hotcorners applet allow user defined commands to be executed
+ when the mouse cursor is pushed into a corner of the main desktop.
+
+Package: budgie-hotcorners-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 208
+Depends: budgie-hotcorners-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-hotcorners-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 149980
+SHA256: f4671c1fe4b92c74508fd268d03e26072b12f78e4ef39916ec7b2461be683480
+SHA1: a5d1e32a55596669be10f316dd8a56de417a198d
+MD5sum: 3624a4c98f34270a35b916b8e9070100
+Description: debug symbols for budgie-hotcorners-applet
+Build-Ids: 82d6dc94b449a19619450a0610412edb85c42c9e abc69a77ec63e8d2add8f21b1819fa22bf33d8e9 e7b0f035e05afc5f3c76a76e92c56fa881ba2317
+
+Package: budgie-kangaroo-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 61
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, xdg-utils, zenity, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-kangaroo-applet_1.6.0-1_all.deb
+Size: 16484
+SHA256: 63a7be183d33a976b697ae7b9602e92105167f6acfe756e8bc5dd7502a75a72a
+SHA1: b5079d66e9e263eefab1d9875fad0ef87509026c
+MD5sum: 69f02921039e0d7a723104646b9d87d5
+Description: Applet to allow quick file-browsing
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The kangaroo applet allows for quick & easy browsing, across
+ (possibly) many directory layers, without having to do a single mouse
+ click.
+
+Package: budgie-keyboard-autoswitch-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 65
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, wmctrl, x11-utils, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-keyboard-autoswitch-applet_1.6.0-1_all.deb
+Size: 18148
+SHA256: e06dd197580216e1bab50a0887e4deda9e680fc94ef73f9dd41114805d1e6410
+SHA1: 87970c1d89797ea42e4e1ccc61014d0189bd034a
+MD5sum: b86b35caf55ff607ad858011e57a908c
+Description: Applet adding the ability to set a different keyboard layout per application
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Keyboard Auto Switcher applet provides the user the ability to set
+ a different keyboard layout per application. Exceptions to the default
+ layout can be set by simply choosing a different layout using the
+ Keyboard Layout applet.
+
+Package: budgie-network-manager-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 190
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.28), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libnm0 (>= 1.0.0), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-network-manager-applet_1.6.0-1_amd64.deb
+Size: 54068
+SHA256: 9770b780d07ac600291bd07c8832f02635036588d698b43edf4f8e37a573e287
+SHA1: fcb942fb1ff8cf8ef60d3d452f4edd61aa5cd283
+MD5sum: 5ce473186671aa3d2bf78260e8f9f857
+Description: Network Manager Applet for the budgie-desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ This package installs an Network connectivity applet for the
+ budgie-desktop.
+
+Package: budgie-network-manager-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 240
+Depends: budgie-network-manager-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-network-manager-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 195076
+SHA256: d54666a729c6a5714e25cc216e68b0836fbcf509ca90e93969896a8c70e05579
+SHA1: f2517b77024bb64721407165ed8dab6d9fecd088
+MD5sum: 4e8cc9fd11cbe989f77f667e1ffad35d
+Description: debug symbols for budgie-network-manager-applet
+Build-Ids: b4f9a5bd482c16408eaf0462cd90e9be39ee0d7c
+
+Package: budgie-previews
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 226
+Depends: budgie-extras-daemon, xinput, xprintidle, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libwnck-3-0 (>= 3.2.0)
+Breaks: budgie-previews-applet (<< 0.4.6~)
+Replaces: budgie-preview-applet (<< 0.4.6~)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-previews_1.6.0-1_amd64.deb
+Size: 48140
+SHA256: d4031e2dbc9704fc09aa7a98b1abdf4352137e56b1a80db7ef2dc0b9de9da84d
+SHA1: 4b0fb73de5d375b07a4b30786f51fc38f8ea8b01
+MD5sum: 40dc3b9a6e115c6d640eae0bc0d87e6f
+Description: Provides window previews capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ budgie-previews can be used on most desktop environments.
+ .
+ Previews shows an overview of windows in an expose like way.
+
+Package: budgie-previews-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 35
+Depends: budgie-previews
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: oldlibs
+Filename: pool/main/b/budgie-extras/budgie-previews-applet_1.6.0-1_all.deb
+Size: 11880
+SHA256: bed29b9ad99a5203cbc5696536b66c29771609b93368c66567829780e73fcc19
+SHA1: 2e00d41af9534d86765f9dcbddebc9f5c34b403b
+MD5sum: 41bb908375342fe4d82767232ad4c982
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: budgie-previews-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 206
+Depends: budgie-previews (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-previews-dbgsym_1.6.0-1_amd64.deb
+Size: 143100
+SHA256: b9781fa5f6cd7f364f798a6c158ea3af6c4ae4d0ba676b4ef40c1304d6e7d875
+SHA1: 85f2e5c7fb3a8e3802ac93d9f0d823bea9532b12
+MD5sum: 6724970f5dfd35568fbba6aa112ddd03
+Description: debug symbols for budgie-previews
+Build-Ids: 065b4dd586a36aba6d481c1d788b22b95144279c 1f996ecd18f2e4f9902eb5c8d34f3ecf6295cc1e 3243a022fae630e9c769dd3245fe73f9f8415988 7132366508f97ee5e26d8d527c43eded03ba1273 e4e49753d9b65b3f3b3b7ae0b48ebe134b27ee28
+
+Package: budgie-quickchar
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 92
+Depends: budgie-extras-daemon, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-wnck-3.0, python3, python3-gi, python3-pyperclip, python3-xlib, wmctrl, x11-utils, dconf-gsettings-backend | gsettings-backend
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-quickchar_1.6.0-1_all.deb
+Size: 22260
+SHA256: 49ba1ba3baabe703ebd71855b9b6031c1bc3bddb85b837c88c399d0be6d6d5f5
+SHA1: 7fd3ef5f16cea4a9aff8b29a1c60edcd3cfb81d7
+MD5sum: de6d1cc885f85f01447b3369d0cad80b
+Description: GUI to find and choose locale characters
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Quickly find and choose the equivalent locale character for an ascii
+ character.
+ .
+ Quickchar can be used on most desktop environments invoked by a shortcut key.
+
+Package: budgie-quicknote-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 90
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.17.9), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-quicknote-applet_1.6.0-1_amd64.deb
+Size: 25164
+SHA256: 2dce93ac09e24fa99877691adb83ce838f95d34eb5901d8f956579419cd6235e
+SHA1: ff8951064a7e4904b3a00332f916de58167d57ae
+MD5sum: 2646a820096193454575af189676096f
+Description: Applet providing simple notes capability for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The quicknote applet allows a user to record a text based note.
+ The applet supports multiple undo and redo capabilities.
+
+Package: budgie-quicknote-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 73
+Depends: budgie-quicknote-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-quicknote-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 52912
+SHA256: c692d56a6c97525de6e08191758b8e460fc5f3c945da46ca559490a39c89c1be
+SHA1: 007896e7459a792a969f774622de266cbe2510a3
+MD5sum: 0dc44b1e8d6f57d5a274f4a264922351
+Description: debug symbols for budgie-quicknote-applet
+Build-Ids: 8fe5885bebb17b200458aabc48d4321a081fa8f2
+
+Package: budgie-recentlyused-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 78
+Depends: budgie-extras-common, xdg-utils, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-recentlyused-applet_1.6.0-1_amd64.deb
+Size: 22516
+SHA256: d246e9424fcece78d2db0cd032e3abcfd3e58307d17ca70a4e6eaae78b33d881
+SHA1: 7edf3990a3f628a6f97181d05225eb7878475533
+MD5sum: 2cdef6d76ce8e25d0a3ae34efcde0858
+Description: Applet displays files recently accessed for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The recentlyused applet displays the users files that have been opened
+ or created within a configurable period of time.
+
+Package: budgie-recentlyused-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 66
+Depends: budgie-recentlyused-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-recentlyused-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 47636
+SHA256: b9c4f37b98887b16ab8024e349db1c893df7168520f8650a9b00ce0f3e23561f
+SHA1: 60041d1945c4a2a67ef08db93279a7bcea0b4dfd
+MD5sum: b91496daa8de410b3cc73afee5f3b6c5
+Description: debug symbols for budgie-recentlyused-applet
+Build-Ids: 3bd5d82a6a71ba39e09cc6d654fba84c77c5f4c0
+
+Package: budgie-rotation-lock-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 54
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-rotation-lock-applet_1.6.0-1_all.deb
+Size: 14920
+SHA256: 8bcd1a27ef881040f155807f0227f4585dbe48a9eeb1fd12f4c60cdda6f1f119
+SHA1: 108eecce2e56eec0f997f485efe4d54892f6c4ae
+MD5sum: 075d73c9981ac5e8b242282cba62a9eb
+Description: Applet to lock or unlock the screen rotation
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Rotation Lock applet provides the user an easy way to lock or
+ unlock the screen rotation.
+
+Package: budgie-showtime-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 139
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-showtime-applet_1.6.0-1_amd64.deb
+Size: 36848
+SHA256: 1db3632b121c67de90cbafa322ac34de34eb037f84d24a616be8de35f07334e0
+SHA1: 0a79307630111d2b30ce80e3acf16d4e9895e974
+MD5sum: 7ff3efd4940b8d209866aae2e81d37a3
+Description: Applet displaying date and time on the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The ShowTime applet is a digital desktop clock, showing time and/or
+ date.  Text color of both the displayed time and date can be set
+ separately from the applet's menu
+
+Package: budgie-showtime-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 145
+Depends: budgie-showtime-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-showtime-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 109548
+SHA256: 1f473d1d4e6a53a5e452c13094015a9722383bacb41fb567301c1cdec5d53752
+SHA1: 4f57704acd761f771a255275bd9add1bdf9d53cd
+MD5sum: bd0d9604204f4a2bec56f0e6ca3309b5
+Description: debug symbols for budgie-showtime-applet
+Build-Ids: 102c5da906e4ff183a763c4ec45edac7244582a2 6a7da9d5bb5577bf7f26f6f27bc32a9686efbb39
+
+Package: budgie-takeabreak-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 75
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, x11-xserver-utils, xprintidle, libnotify-bin, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-takeabreak-applet_1.6.0-1_all.deb
+Size: 19064
+SHA256: 6504249a54e4f4834f315297a1ff78ad56e214fa6de23d99c9426f0c6f09afec
+SHA1: 785d09e65c0456484af88d1d855aa51d87dc39f8
+MD5sum: 60e2cdb901493d55176c875ab8ed3788
+Description: Applet to prompt when to take-a-break for a set period of time
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The take-a-break applet monitors how long a desktop is being used
+ and at a configurable time period suggests when to take a break
+ from working.
+
+Package: budgie-trash-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 143
+Depends: budgie-extras-common, libnotify-bin, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-trash-applet_1.6.0-1_amd64.deb
+Size: 41004
+SHA256: 0cd3f9c9dd1ad9fdbc9c481385f6dcc094183ba00e796cb003b6abc81cf0b7a2
+SHA1: 93b78dea62187738626a4772afecf02a120d8d63
+MD5sum: c4aa32f9449ac4085e66024320e86e96
+Description: Applet allows access to trash capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The trash applet allows the user access the desktop trash capabilities
+ from the panel including the ability to delete and restore files stored
+ in the trash folder.
+
+Package: budgie-trash-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 168
+Depends: budgie-trash-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-trash-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 138396
+SHA256: 8d2badda25615a8eb015a78944aa804136c03bce4e72ddc0087342fdc74ebc1b
+SHA1: 7d8297dd887260a38e3a4cdf9c2aa474c5c4e0cc
+MD5sum: 812c73a2e27622a23c7d926b4a6521ea
+Description: debug symbols for budgie-trash-applet
+Build-Ids: 6f67a1c09e8d1d9e6ff8429210841dca72595545
+
+Package: budgie-visualspace-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 102
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-visualspace-applet_1.6.0-1_amd64.deb
+Size: 26616
+SHA256: 81bd108da3af4a19999e0b4d474d302fc1efbe7cfd1e524aec9725a94f0c1b33
+SHA1: 3b745a0e3b21be599fe29ba08ee44fb70a9c6d3e
+MD5sum: 31de6feab38bed916ca6b92871867db6
+Description: Show and manage windows in workspaces for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The visualspace applet shows as a stylish compact workspace on the budgie
+ panel.  Choosing windows in the applet popup moves to the workspace
+ where the window is located and gives it focus.
+ The number of Workspace can also be changed though the applet popup.
+
+Package: budgie-visualspace-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 91
+Depends: budgie-visualspace-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-visualspace-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 61308
+SHA256: d9fa639223b26397991f04afa7c1612a163625aa80e5888b8e5b9a4d92596bb3
+SHA1: f3e146289f474431fe6b50451dbc918d51aacdee
+MD5sum: 3be1fa36ca8fdf413704be95b865fb56
+Description: debug symbols for budgie-visualspace-applet
+Build-Ids: 2294d61a86c835dcb6ee2de715e4e5981c8001a5 66db446c23141759bbb18de95c1b0b714708e6ac
+
+Package: budgie-wallstreet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 111
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-wallstreet_1.6.0-1_amd64.deb
+Size: 27132
+SHA256: 18ad52ca04e6f09bff3af925719cfb1b71d39f2b237e3e0180d541757a571a5e
+SHA1: cf5265cf5401c7b2e2c05dc9002be80bc1595cb1
+MD5sum: f48e66ddef7d590ffb34e9fd25983e9f
+Description: Change wallpaper from a folder on a schedule
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Wallstreet allows for a directory of pictures to be shown on
+ a schedule.
+
+Package: budgie-wallstreet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 81
+Depends: budgie-wallstreet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-wallstreet-dbgsym_1.6.0-1_amd64.deb
+Size: 53420
+SHA256: 3c42af1e6c6baa6e9784565a49b2ca6548f78b5da835c77cbdb3d217d582c440
+SHA1: 3845945fe5d15db09eff6ff1004fca98faf52d07
+MD5sum: fd25c8cc62cf498a9241e3e7223c22ec
+Description: debug symbols for budgie-wallstreet
+Build-Ids: 37747144c18d99bd293d24058ddc7c76f5d885ac f9c584441c8ea9c787cb363fcd6dd4a21b6d1365
+
+Package: budgie-weathershow-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 5034
+Depends: budgie-extras-common, procps, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0), libsoup2.4-1 (>= 2.41.90)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-weathershow-applet_1.6.0-1_amd64.deb
+Size: 1133532
+SHA256: 663bdc5e45a1e0b9e9bd0623c104a223a3d8cd9a800ecac3542d088812b9f101
+SHA1: 82d6817eb1ba4937b08e38a3fbbbec7e79ee6d35
+MD5sum: c77f649807b560197dc8dc8e19eddfbd
+Description: Applet to display the weather and forecast
+ This is part of a suite of python3 based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The weathershow applet displays daily and three hourly weather
+ forecasts on both the desktop and a Popover.
+
+Package: budgie-weathershow-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 246
+Depends: budgie-weathershow-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-weathershow-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 194152
+SHA256: 182d6d97eb49a52103115c5e76ae7c6e1dda4ab5eff2812c8442675e25d51f50
+SHA1: c0f9dc29e83276884df57e7896d268058d6eb02b
+MD5sum: 60167460fe02da2fbd3e138a6a305c6e
+Description: debug symbols for budgie-weathershow-applet
+Build-Ids: 01f1f35ef45876c73ee616a0562cdcb6a7b0fd8a 1d5fd5615f335a30a1eec34c121a8075d06190a0 6d63f6820be1a45965824cb64c89f48fa7625d9e
+
+Package: budgie-window-shuffler
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 1000
+Depends: budgie-extras-common, budgie-extras-daemon, x11-utils, dconf-gsettings-backend | gsettings-backend, libatspi2.0-0 (>= 2.9.90), libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libnotify4 (>= 0.7.0), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 3.2.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-window-shuffler_1.6.0-1_amd64.deb
+Size: 199040
+SHA256: 1951e97e4782c8e5e1c772c4dfd277fbeda89767b7b401ff7f48d84074d578cd
+SHA1: 85a64829dcb38bb84d3ac9c8ef5a84cb426d0018
+MD5sum: 572de75d34b482431d7d550b4f0dfb0e
+Description: Keyboard and GUI friendly window-tiling capability
+ Budgie-Desktop is a GTK+ based desktop environment which focuses on
+ simplicity and elegance.  It provides a traditional desktop metaphor
+ based interface utilising customisable panel based menu driven system.
+ Budgie-Desktop is written from scratch utilising many GNOME based
+ sub-systems such as GNOME-Session and Mutter.
+ .
+ The window shuffler is an easy to use windows tiling capability
+ driven primarily through the keyboard to place and move window in
+ a grid format.
+ .
+ Windows can be easily quarter, half-tiled & maximized. Windows can
+ be moved within a user defined grid and intelligently switches
+ window positions where necessary.
+
+Package: budgie-window-shuffler-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 1191
+Depends: budgie-window-shuffler (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-window-shuffler-dbgsym_1.6.0-1_amd64.deb
+Size: 913172
+SHA256: a5f2a6e81d7e454460c74a62155c9634b52e249b09cf865220d8f352a22572e3
+SHA1: c898e1f4208e9509ffff6fe36c5e610c5b313d64
+MD5sum: 271eec8a74fd0c0dd912cddede8d43ee
+Description: debug symbols for budgie-window-shuffler
+Build-Ids: 0d3669a50286578d95edb27980484b77ff92e8c1 21f2dd879188c66463ab012ce42f8688d5ed685d 3d47e8f0cda170569ee8f50379ab2e5517d4bf85 647fad2cf63934d30131685dc9b43bf9e8dd22f1 68860321ded7c42ec5243ae1ab755945618715f7 730b36254678b2876f77dc07a623d96501e543f9 8b2fdb6666ed67e227dec1ba67f1e3eec6a7bf6a 8efe101dd186838576dca4cd87aadd0378dae98b 95e20c8282e60fd30a2ba08fbe68d89be0a929d1 c238cbd4b75c98067694ccd41653eb2660679ed7 c9c8044ad5d552cce32edd0d482f3ecda113ab0c d1a9706dfc7590e5e35ac9fb51f3f50e614f6482 dc4db97aa79a7030992ea85815f1d6e913ef4b28 e4712411ce554a79e7b32e05496868704c9df926 f14b807b4cf6ef5c079e68fc9502b7fd2d2d2687 fe3e4dbbf6c024599f8e3d4288d0c60be7ea1d68
+
+Package: budgie-workspace-stopwatch-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 57
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-wnck-3.0, python3, python3-gi, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-workspace-stopwatch-applet_1.6.0-1_all.deb
+Size: 16048
+SHA256: 6f902f7da1100ebc39c97cd8c973b1fec81a76f2c137f52c01a6877379e0f2d6
+SHA1: afcb7f68c9d92ec1c36995f0061ba728be119695
+MD5sum: 2448143b56b2ae4361cf672249657ec6
+Description: Workspace usage tracker for the budgie desktop
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Workspace Stopwatch Applet keeps track of usage per workspace,
+ i.e. to find out how much minutes/hours were actually spent on a job.
+ Workspaces can be freely named, custom names and all data are remembered.
+
+Package: budgie-workspace-wallpaper-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 107
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-workspace-wallpaper-applet_1.6.0-1_amd64.deb
+Size: 25076
+SHA256: 98213523eea440228539215ee9c082822fc6a844284872232a730e29139cb16c
+SHA1: f6b2367f0e3813a038aecb1b4941d115419b597a
+MD5sum: a12b01c2c8f6c1c96e88c6e68e9e5cef
+Description: Applet providing per workspace wallpaper
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The workspace wallpaper applet shows a different wallpaper on each of
+ the workspaces. Usage is simple: add the applet to the panel and set
+ wallpapers on each of the workspaces in the way you are used to.
+ The applet will remember what wallpaper was set on each of the
+ workspaces.
+
+Package: budgie-workspace-wallpaper-applet-dbgsym
+Source: budgie-extras
+Version: 1.6.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 78
+Depends: budgie-workspace-wallpaper-applet (= 1.6.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/budgie-extras/budgie-workspace-wallpaper-applet-dbgsym_1.6.0-1_amd64.deb
+Size: 48456
+SHA256: 5f421d0ef6a9bb7c16add45234c0bb4fd41d48521657a7f677c625a51a002a2f
+SHA1: ca3eddf17cd065faf518362ef48f27aff1dfa621
+MD5sum: 492e1f1d5cc63847e71efa8b93dc7a4e
+Description: debug symbols for budgie-workspace-wallpaper-applet
+Build-Ids: 4b0960b0e1e5ec849f6e0aaddb38e47b895c8c7b cb2172c89e4917382b73ab634d69de96506da75e
+
 Package: debianeasy-repo
 Version: 0.2
 Architecture: amd64

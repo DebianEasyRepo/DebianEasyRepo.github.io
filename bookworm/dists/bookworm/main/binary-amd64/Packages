@@ -1064,17 +1064,17 @@ MD5sum: ce4d845389d565aac8676a93e02b6fed
 Description: Default Linux kernel of Debian Stable for amd64
 
 Package: linux-edge-amd64
-Version: 6.4.4-6
+Version: 6.4.6-1
 Architecture: amd64
 Depends: linux-image-edge-amd64, linux-headers-edge-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.4.4-6_amd64.deb
+Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.4.6-1_amd64.deb
 Size: 824
-SHA256: e219077b7d594d984446dfc10512749ba726e6f260fca38532590d7a8de770a1
-SHA1: 6aac083cc72b1e710fa593ec0bd37648016dbfa1
-MD5sum: 0393014c77e22d434fb3aaea98f0e0fa
+SHA256: d9ef2e414de3473fc2a42ec81e8d29cdfbd1c6089a889f43b41e1d5630fb71fd
+SHA1: 18cc0508cd90ad7ce3bb6d00bc613bb1e0619559
+MD5sum: e252d56721ed65adb995054dec37db15
 Description: edge Linux kernel of Debian Stable for amd64
 
 Package: linux-headers-6.1.0-10-amd64
@@ -1161,6 +1161,25 @@ Description: Linux kernel headers for 6.4.4 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.4.6
+Source: linux-upstream
+Version: 6.4.6-1
+Architecture: amd64
+Maintainer: jydeng <jydeng@deb12.SPtest>
+Installed-Size: 53076
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-upstream/linux-headers-6.4.6_6.4.6-1_amd64.deb
+Size: 9045572
+SHA256: b21af76e64a4979f9443c265725f8f32deb03e1e4fa49cd360dbbc3e14cecc50
+SHA1: bc234d2255084ed266893922e15106af10715f71
+MD5sum: 90dcc5a075fa2918c6687464449e69d2
+Description: Linux kernel headers for 6.4.6 on amd64
+ This package provides kernel header files for 6.4.6 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-backports-amd64
 Version: 0.0.0-0
 Architecture: amd64
@@ -1196,17 +1215,17 @@ Description: Header files for Linux amd64 configuration (meta-package)
  latest Linux kernel amd64 configuration.
 
 Package: linux-headers-edge-amd64
-Version: 6.4.4-6
+Version: 6.4.6-1
 Architecture: amd64
-Depends: linux-headers-6.4.4
+Depends: linux-headers-6.4.6
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-headers-edge-amd64/linux-headers-edge-amd64_6.4.4-6_amd64.deb
+Filename: pool/main/l/linux-headers-edge-amd64/linux-headers-edge-amd64_6.4.6-1_amd64.deb
 Size: 828
-SHA256: 6f15d99a5c5b46a27496be06be7b5d8e5a3fc36862eba30ff804a7acbe3fb73a
-SHA1: 4b442703fbcb18868cfb53a95da4267699dea7de
-MD5sum: 7782e3da000d4b5bcdeef6462334830b
+SHA256: fd3b2053360a024cefaa473fc6f1182683b16cb49e75ab7b86cf7653618d149a
+SHA1: 3614c95e4689c3d45ff1d80f5e2ce1f380905d22
+MD5sum: 6107e74409cd7ee34495d10b4dc19641
 Description: edge Linux kernel headers of Debian Stable for amd64
 
 Package: linux-image-6.1.0-10-amd64
@@ -1299,6 +1318,24 @@ Description: Linux kernel, version 6.4.4
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.4.4.
 
+Package: linux-image-6.4.6
+Source: linux-upstream
+Version: 6.4.6-1
+Architecture: amd64
+Maintainer: jydeng <jydeng@deb12.SPtest>
+Installed-Size: 468448
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-upstream/linux-image-6.4.6_6.4.6-1_amd64.deb
+Size: 76367264
+SHA256: abbba1e32157210020d0751e3028140744b47ef6a5ba8837b34e236505dafffd
+SHA1: ac8de25464b0b3b54321c2a4f8d87e8352a97c45
+MD5sum: 043756e608d99c68633da93dbf7717d9
+Description: Linux kernel, version 6.4.6
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.4.6.
+
 Package: linux-image-backports-amd64
 Version: 0.0.0-0
 Architecture: amd64
@@ -1334,17 +1371,17 @@ Description: Linux for 64-bit PCs (meta-package)
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-edge-amd64
-Version: 6.4.4-6
+Version: 6.4.6-1
 Architecture: amd64
-Depends: linux-image-6.4.4
+Depends: linux-image-6.4.6
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-image-edge-amd64/linux-image-edge-amd64_6.4.4-6_amd64.deb
+Filename: pool/main/l/linux-image-edge-amd64/linux-image-edge-amd64_6.4.6-1_amd64.deb
 Size: 824
-SHA256: ebeafc3202c8478ea8b5600f1eefe202f6f0e6aa565730cb01ba6b10c0e2ceb0
-SHA1: 9d58fc769b26de39a00bfc9741f08b412a5281fc
-MD5sum: 64831d1dee92d2d1fbae794f9fb7489e
+SHA256: 55ac9625eba403bbd8e6970c0e043fe177474e0242dd1191a6943c0d663e7045
+SHA1: 82d8b33d6b5752f973423831f44dbfc58bd2846d
+MD5sum: 5b91692ae0df91a28915103fc73e7177
 Description: edge Linux kernel image of Debian Stable for amd64
 
 Package: node-locker

@@ -1,0 +1,1174 @@
+Package: blesh
+Version: 0.3.3
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/b/blesh/blesh_0.3.3_all.deb
+Size: 162864
+SHA256: f45390cba8413720368bd8ead646617c7649ab4edb415841e5fa98cc0de3a70b
+SHA1: bb393eef9e19593c08c296ed8edf7a9f0f2c9508
+MD5sum: 33ee7ef30909916d4a158bb641bb5b56
+Description: provide fish-like experience for bash
+
+Package: budgie-app-launcher-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 106
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gmenu-3.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, gnome-menus, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-app-launcher-applet_1.6.0-1_all.deb
+Size: 22128
+SHA256: 1c30ce7592a83d883bc337974d2a5b024f5717f55c36abe2267925e0e331d0ec
+SHA1: d83053a153935cc510945ab4f79af8e6ec708791
+MD5sum: d98743451618e2720599fcdf23a91133
+Description: Applet to provide an alternative means to launch applications
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The app-launcher applet allows the ability to add favorite apps to the
+ panel as well as finding and launching applications.  The list of
+ applications listed can be easily configured to be visible or hidden.
+
+Package: budgie-applications-menu-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 668
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.68.0), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.80.0), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0), libplank1 (>= 0.11.89)
+Recommends: switcheroo-control
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-applications-menu-applet_1.6.0-1_amd64.deb
+Size: 175492
+SHA256: b9ffb3265571a83b98a26cf6605decc2da36f2375799383bf8c7a605f87de784
+SHA1: 1ee679fde04df32f7a36029e6b3d19047c6ec4ff
+MD5sum: 708075570db944fed8abde5a5d010676
+Description: Stylish Applications Menu for Budgie-Desktop
+ Budgie-Desktop is a GTK+ based desktop environment which focuses on
+ simplicity and elegance.  It provides a traditional desktop metaphor
+ based interface utilising customisable panel based menu driven system.
+ Budgie-Desktop is written from scratch utilising many GNOME based
+ sub-systems such as GNOME-Session and Mutter.
+ .
+ The application-menu is a stylish panel applet that displays applications
+ in different views - grid and list. Weblinks typed into the search bar
+ can be opened in your default browser. Applications that have additional
+ desktop options show via a right-click menu. Applications with associated
+ actions show those actions are additional searchable entries.
+ .
+ Variety of options are available including grid sizing and displaying a
+ powerstrip.
+
+Package: budgie-brightness-controller-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 144
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.5.12), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-brightness-controller-applet_1.6.0-1_amd64.deb
+Size: 39180
+SHA256: 33426adfba6be56a011aedfb2464076ec9c82677a497fbd44bccf125b8e9dc54
+SHA1: 6cda4d1ab7e147f118d470e5a701576dfc9b3d77
+MD5sum: 5b038392f0639cde669571dc4a6aab55
+Description: Applet to control the brightness of the screen
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ The brightness controller applet allows controlling of the screen
+ levels via xrandr (fallback) or via gnome-settings-daemon (if available)
+
+Package: budgie-clockworks-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 76
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-cairosvg, python3-gi, python3-pil, python3-svgwrite, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-clockworks-applet_1.6.0-1_all.deb
+Size: 19776
+SHA256: df6fb497c9db7b15a7d6c8c59a7c35761fd69cd37fc4409e995eca5b1e131aaf
+SHA1: 72b483aa6015e68a13fd7cbf9c39c7a38060e770
+MD5sum: 2b97fc27b42dfd6ab6785e1a1f16e371
+Description: Applet to display clock across multiple time zones
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Clockworks applet displays the current time across multiple
+ time zones.
+
+Package: budgie-countdown-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 93
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, sound-theme-freedesktop, vorbis-tools, zenity, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-countdown-applet_1.6.0-1_all.deb
+Size: 32616
+SHA256: f43c39d2dcb02938dd1ae0ece84dc9ed9640bfb389511b635b6a7b57a642c763
+SHA1: a4f8ae4968dd0a214911c02439dd74bece3d3e82
+MD5sum: 46ed0df37f6e5c0248a1afee2dac27a6
+Description: Applet providing a countdown capability on the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Countdown applet provides the user the ability to start an
+ action when the countdown reaches 0 seconds. Actions include flashing
+ an icon in the panel, opening a notification window, sounding a
+ bell or running a custom command.
+
+Package: budgie-dropby-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 91
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, gir1.2-wnck-3.0, python3, python3-gi, python3-psutil, python3-pyudev, util-linux (>= 2.31.1), wmctrl, zenity, libnotify-bin, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-dropby-applet_1.6.0-1_all.deb
+Size: 21456
+SHA256: c2b4b78fc5132b5e621a6c6ece52170c76ccec604e7c0b2848a5905d83704300
+SHA1: 303f5e6c1547194cf60df7507479c7bcaa2b5b84
+MD5sum: e524186b73f04d852b3ace0fb7fdd4e0
+Description: Applet to popup when a USB device is connected
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The DropBy applet pops up in the panel when connecting a usb device.
+ The applet subsequently offers the option(s) to mount, unmount/eject
+ and in case of a flash drive, to make a local copy of the drive's
+ content. The info shows the free space on the volume.
+ .
+ The applet is context- sensitive, meaning: it only shows its icon in
+ the panel if, and as long as, any usb drive is connected.
+
+Package: budgie-extras-common
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 492
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-extras-common_1.6.0-1_amd64.deb
+Size: 95088
+SHA256: f9454ac1c18c52c25749add350023cf92e7734e4fd7a0cb620c27ae6c9f57084
+SHA1: a58511a3eb7ddbedc98736a544e72ac64d237982
+MD5sum: 0bab305ff8fb451ff2ec5f6afeabdec4
+Description: Shared component of budgie-extras applets
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The shared component provides for capabilities that are utilised between
+ budgie-extra applets.
+
+Package: budgie-extras-daemon
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 115
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), libkeybinder-3.0-0 (>= 0.3.0)
+Suggests: budgie-applications-menu-applet, plank
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-extras-daemon_1.6.0-1_amd64.deb
+Size: 29976
+SHA256: a4413f83ec76e63b7b4294da3c26fc756d98335ed2b390b296e12638c849a291
+SHA1: 15e3085cdcfcb732df108391cbdb9743903cc9bc
+MD5sum: fdd5e677c267544267c4cd05fcaed622
+Description: Extras daemon for budgie-extras capabilities
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ Budgie-Extras-Daemon provides both global keybinding and D-Bus functionality
+ for various extras applets and applications.
+
+Package: budgie-fuzzyclock-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 90
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.11.5), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-fuzzyclock-applet_1.6.0-1_amd64.deb
+Size: 26456
+SHA256: 79543b662d89d0a3495668ae7b2ec7f272dbe46add4eb3ff413f69413e352bc4
+SHA1: 5ed38eed9fa222fe8469fc6a713f26f6087d8147
+MD5sum: 2313c38f513a1143038559580713c859
+Description: Show the time in a fuzzy way
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ Displays the time in a 'spoken' format such as five past six.
+
+Package: budgie-hotcorners-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 215
+Depends: budgie-extras-common, gnome-screensaver, libnotify-bin, xdotool, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-hotcorners-applet_1.6.0-1_amd64.deb
+Size: 48484
+SHA256: 6c5bc52ec357cd152d87b8066987384e96b512cc4e7d559b3ad31372ec692a86
+SHA1: 39d8bcd7d618227b2533c867151e38e0fcabe205
+MD5sum: a6bd4e5e2cb11269758b2b9da90a1f10
+Description: Applet providing hotcorners capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The hotcorners applet allow user defined commands to be executed
+ when the mouse cursor is pushed into a corner of the main desktop.
+
+Package: budgie-kangaroo-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 61
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, xdg-utils, zenity, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-kangaroo-applet_1.6.0-1_all.deb
+Size: 16484
+SHA256: 63a7be183d33a976b697ae7b9602e92105167f6acfe756e8bc5dd7502a75a72a
+SHA1: b5079d66e9e263eefab1d9875fad0ef87509026c
+MD5sum: 69f02921039e0d7a723104646b9d87d5
+Description: Applet to allow quick file-browsing
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The kangaroo applet allows for quick & easy browsing, across
+ (possibly) many directory layers, without having to do a single mouse
+ click.
+
+Package: budgie-keyboard-autoswitch-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 65
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3-psutil, wmctrl, x11-utils, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-keyboard-autoswitch-applet_1.6.0-1_all.deb
+Size: 18148
+SHA256: e06dd197580216e1bab50a0887e4deda9e680fc94ef73f9dd41114805d1e6410
+SHA1: 87970c1d89797ea42e4e1ccc61014d0189bd034a
+MD5sum: b86b35caf55ff607ad858011e57a908c
+Description: Applet adding the ability to set a different keyboard layout per application
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Keyboard Auto Switcher applet provides the user the ability to set
+ a different keyboard layout per application. Exceptions to the default
+ layout can be set by simply choosing a different layout using the
+ Keyboard Layout applet.
+
+Package: budgie-network-manager-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 190
+Depends: budgie-extras-common, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.28), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libnm0 (>= 1.0.0), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-network-manager-applet_1.6.0-1_amd64.deb
+Size: 54068
+SHA256: 9770b780d07ac600291bd07c8832f02635036588d698b43edf4f8e37a573e287
+SHA1: fcb942fb1ff8cf8ef60d3d452f4edd61aa5cd283
+MD5sum: 5ce473186671aa3d2bf78260e8f9f857
+Description: Network Manager Applet for the budgie-desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ This package installs an Network connectivity applet for the
+ budgie-desktop.
+
+Package: budgie-previews
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 226
+Depends: budgie-extras-daemon, xinput, xprintidle, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libwnck-3-0 (>= 3.2.0)
+Breaks: budgie-previews-applet (<< 0.4.6~)
+Replaces: budgie-preview-applet (<< 0.4.6~)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-previews_1.6.0-1_amd64.deb
+Size: 48140
+SHA256: d4031e2dbc9704fc09aa7a98b1abdf4352137e56b1a80db7ef2dc0b9de9da84d
+SHA1: 4b0fb73de5d375b07a4b30786f51fc38f8ea8b01
+MD5sum: 40dc3b9a6e115c6d640eae0bc0d87e6f
+Description: Provides window previews capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ budgie-previews can be used on most desktop environments.
+ .
+ Previews shows an overview of windows in an expose like way.
+
+Package: budgie-previews-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 35
+Depends: budgie-previews
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: oldlibs
+Filename: pool/main/b/budgie-extras/budgie-previews-applet_1.6.0-1_all.deb
+Size: 11880
+SHA256: bed29b9ad99a5203cbc5696536b66c29771609b93368c66567829780e73fcc19
+SHA1: 2e00d41af9534d86765f9dcbddebc9f5c34b403b
+MD5sum: 41bb908375342fe4d82767232ad4c982
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: budgie-quickchar
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 92
+Depends: budgie-extras-daemon, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-wnck-3.0, python3, python3-gi, python3-pyperclip, python3-xlib, wmctrl, x11-utils, dconf-gsettings-backend | gsettings-backend
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-quickchar_1.6.0-1_all.deb
+Size: 22260
+SHA256: 49ba1ba3baabe703ebd71855b9b6031c1bc3bddb85b837c88c399d0be6d6d5f5
+SHA1: 7fd3ef5f16cea4a9aff8b29a1c60edcd3cfb81d7
+MD5sum: de6d1cc885f85f01447b3369d0cad80b
+Description: GUI to find and choose locale characters
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Quickly find and choose the equivalent locale character for an ascii
+ character.
+ .
+ Quickchar can be used on most desktop environments invoked by a shortcut key.
+
+Package: budgie-quicknote-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 90
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.17.9), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-quicknote-applet_1.6.0-1_amd64.deb
+Size: 25164
+SHA256: 2dce93ac09e24fa99877691adb83ce838f95d34eb5901d8f956579419cd6235e
+SHA1: ff8951064a7e4904b3a00332f916de58167d57ae
+MD5sum: 2646a820096193454575af189676096f
+Description: Applet providing simple notes capability for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The quicknote applet allows a user to record a text based note.
+ The applet supports multiple undo and redo capabilities.
+
+Package: budgie-recentlyused-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 78
+Depends: budgie-extras-common, xdg-utils, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-recentlyused-applet_1.6.0-1_amd64.deb
+Size: 22516
+SHA256: d246e9424fcece78d2db0cd032e3abcfd3e58307d17ca70a4e6eaae78b33d881
+SHA1: 7edf3990a3f628a6f97181d05225eb7878475533
+MD5sum: 2cdef6d76ce8e25d0a3ae34efcde0858
+Description: Applet displays files recently accessed for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The recentlyused applet displays the users files that have been opened
+ or created within a configurable period of time.
+
+Package: budgie-rotation-lock-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 54
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-rotation-lock-applet_1.6.0-1_all.deb
+Size: 14920
+SHA256: 8bcd1a27ef881040f155807f0227f4585dbe48a9eeb1fd12f4c60cdda6f1f119
+SHA1: 108eecce2e56eec0f997f485efe4d54892f6c4ae
+MD5sum: 075d73c9981ac5e8b242282cba62a9eb
+Description: Applet to lock or unlock the screen rotation
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The Rotation Lock applet provides the user an easy way to lock or
+ unlock the screen rotation.
+
+Package: budgie-screensaver
+Version: 5.1.0-1
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-desktop-3-20 (>= 3.35), libgnomekbd8 (>= 3.6.0), libgtk-3-0 (>= 3.0.0), libpam0g (>= 0.99.7.1), libsystemd0, libx11-6, libxext6, libxklavier16 (>= 5.0), libxxf86vm1, default-dbus-session-bus | dbus-session-bus, gsettings-desktop-schemas (>= 2.91.92)
+Breaks: gnome-session-flashback (<< 3.8.1-1~)
+Provides: gnome-screensaver
+Conflicts: gnome-screensaver
+Priority: optional
+Section: budgie
+Filename: pool/main/b/budgie-screensaver/budgie-screensaver_5.1.0-1_amd64.deb
+Size: 323708
+SHA256: c39b1fb90038a590423bdc4852d923e6d2510f5556263d686423d98f2a600b10
+SHA1: c1e45d9c5643c207e9b96f0afb66a889f45b454b
+MD5sum: 9e382a9b5972317e5e8500feab748ac5
+Description: A fork of gnome-screensaver for budgie desktop
+
+Package: budgie-showtime-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 139
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-showtime-applet_1.6.0-1_amd64.deb
+Size: 36848
+SHA256: 1db3632b121c67de90cbafa322ac34de34eb037f84d24a616be8de35f07334e0
+SHA1: 0a79307630111d2b30ce80e3acf16d4e9895e974
+MD5sum: 7ff3efd4940b8d209866aae2e81d37a3
+Description: Applet displaying date and time on the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The ShowTime applet is a digital desktop clock, showing time and/or
+ date.  Text color of both the displayed time and date can be set
+ separately from the applet's menu
+
+Package: budgie-takeabreak-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 75
+Depends: gir1.2-budgie-1.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0, python3, python3-gi, x11-xserver-utils, xprintidle, libnotify-bin, dconf-gsettings-backend | gsettings-backend, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-takeabreak-applet_1.6.0-1_all.deb
+Size: 19064
+SHA256: 6504249a54e4f4834f315297a1ff78ad56e214fa6de23d99c9426f0c6f09afec
+SHA1: 785d09e65c0456484af88d1d855aa51d87dc39f8
+MD5sum: 60e2cdb901493d55176c875ab8ed3788
+Description: Applet to prompt when to take-a-break for a set period of time
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The take-a-break applet monitors how long a desktop is being used
+ and at a configurable time period suggests when to take a break
+ from working.
+
+Package: budgie-trash-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 143
+Depends: budgie-extras-common, libnotify-bin, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libpeas-1.0-0 (>= 1.0.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-trash-applet_1.6.0-1_amd64.deb
+Size: 41004
+SHA256: 0cd3f9c9dd1ad9fdbc9c481385f6dcc094183ba00e796cb003b6abc81cf0b7a2
+SHA1: 93b78dea62187738626a4772afecf02a120d8d63
+MD5sum: c4aa32f9449ac4085e66024320e86e96
+Description: Applet allows access to trash capabilities for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The trash applet allows the user access the desktop trash capabilities
+ from the panel including the ability to delete and restore files stored
+ in the trash folder.
+
+Package: budgie-visualspace-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 102
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-visualspace-applet_1.6.0-1_amd64.deb
+Size: 26616
+SHA256: 81bd108da3af4a19999e0b4d474d302fc1efbe7cfd1e524aec9725a94f0c1b33
+SHA1: 3b745a0e3b21be599fe29ba08ee44fb70a9c6d3e
+MD5sum: 31de6feab38bed916ca6b92871867db6
+Description: Show and manage windows in workspaces for the Budgie Desktop
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The visualspace applet shows as a stylish compact workspace on the budgie
+ panel.  Choosing windows in the applet popup moves to the workspace
+ where the window is located and gives it focus.
+ The number of Workspace can also be changed though the applet popup.
+
+Package: budgie-wallstreet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 111
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-wallstreet_1.6.0-1_amd64.deb
+Size: 27132
+SHA256: 18ad52ca04e6f09bff3af925719cfb1b71d39f2b237e3e0180d541757a571a5e
+SHA1: cf5265cf5401c7b2e2c05dc9002be80bc1595cb1
+MD5sum: f48e66ddef7d590ffb34e9fd25983e9f
+Description: Change wallpaper from a folder on a schedule
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Wallstreet allows for a directory of pictures to be shown on
+ a schedule.
+
+Package: budgie-weathershow-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 5034
+Depends: budgie-extras-common, procps, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.4), libjson-glib-1.0-0 (>= 1.5.2), libpeas-1.0-0 (>= 1.0.0), libsoup2.4-1 (>= 2.41.90)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-weathershow-applet_1.6.0-1_amd64.deb
+Size: 1133532
+SHA256: 663bdc5e45a1e0b9e9bd0623c104a223a3d8cd9a800ecac3542d088812b9f101
+SHA1: 82d6817eb1ba4937b08e38a3fbbbec7e79ee6d35
+MD5sum: c77f649807b560197dc8dc8e19eddfbd
+Description: Applet to display the weather and forecast
+ This is part of a suite of python3 based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The weathershow applet displays daily and three hourly weather
+ forecasts on both the desktop and a Popover.
+
+Package: budgie-window-shuffler
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 1000
+Depends: budgie-extras-common, budgie-extras-daemon, x11-utils, dconf-gsettings-backend | gsettings-backend, libatspi2.0-0 (>= 2.9.90), libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.21.6), libnotify4 (>= 0.7.0), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 3.2.0)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-window-shuffler_1.6.0-1_amd64.deb
+Size: 199040
+SHA256: 1951e97e4782c8e5e1c772c4dfd277fbeda89767b7b401ff7f48d84074d578cd
+SHA1: 85a64829dcb38bb84d3ac9c8ef5a84cb426d0018
+MD5sum: 572de75d34b482431d7d550b4f0dfb0e
+Description: Keyboard and GUI friendly window-tiling capability
+ Budgie-Desktop is a GTK+ based desktop environment which focuses on
+ simplicity and elegance.  It provides a traditional desktop metaphor
+ based interface utilising customisable panel based menu driven system.
+ Budgie-Desktop is written from scratch utilising many GNOME based
+ sub-systems such as GNOME-Session and Mutter.
+ .
+ The window shuffler is an easy to use windows tiling capability
+ driven primarily through the keyboard to place and move window in
+ a grid format.
+ .
+ Windows can be easily quarter, half-tiled & maximized. Windows can
+ be moved within a user defined grid and intelligently switches
+ window positions where necessary.
+
+Package: budgie-workspace-stopwatch-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 57
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-wnck-3.0, python3, python3-gi, python3:any
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-workspace-stopwatch-applet_1.6.0-1_all.deb
+Size: 16048
+SHA256: 6f902f7da1100ebc39c97cd8c973b1fec81a76f2c137f52c01a6877379e0f2d6
+SHA1: afcb7f68c9d92ec1c36995f0061ba728be119695
+MD5sum: 2448143b56b2ae4361cf672249657ec6
+Description: Workspace usage tracker for the budgie desktop
+ This is part of a suite of python3 and Vala based applets & mini-apps
+ created for the Budgie Desktop that provide additional user orientated
+ capabilities. These can be used individually or as a set.
+ .
+ Workspace Stopwatch Applet keeps track of usage per workspace,
+ i.e. to find out how much minutes/hours were actually spent on a job.
+ Workspaces can be freely named, custom names and all data are remembered.
+
+Package: budgie-workspace-wallpaper-applet
+Source: budgie-extras
+Version: 1.6.0-1
+Architecture: amd64
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 107
+Depends: budgie-extras-common, dconf-gsettings-backend | gsettings-backend, libbudgie-plugin0 (>= 10.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.16.2), libpeas-1.0-0 (>= 1.0.0), libwnck-3-0 (>= 2.91.6)
+Homepage: https://ubuntubudgie.org
+Priority: optional
+Section: misc
+Filename: pool/main/b/budgie-extras/budgie-workspace-wallpaper-applet_1.6.0-1_amd64.deb
+Size: 25076
+SHA256: 98213523eea440228539215ee9c082822fc6a844284872232a730e29139cb16c
+SHA1: f6b2367f0e3813a038aecb1b4941d115419b597a
+MD5sum: a12b01c2c8f6c1c96e88c6e68e9e5cef
+Description: Applet providing per workspace wallpaper
+ This is part of a suite of python3 and Vala based applets for the Budgie
+ Desktop that provide additional user orientated capabilities.
+ The applets can be used individually or as a set.
+ .
+ The workspace wallpaper applet shows a different wallpaper on each of
+ the workspaces. Usage is simple: add the applet to the panel and set
+ wallpapers on each of the workspaces in the way you are used to.
+ The applet will remember what wallpaper was set on each of the
+ workspaces.
+
+Package: debianeasy-backports
+Version: 0.3-1
+Architecture: amd64
+Depends: fasttrack-archive-keyring
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/d/debianeasy-backports/debianeasy-backports_0.3-1_amd64.deb
+Size: 4880
+SHA256: 1841e1c1696b7534911fddbc5141ddabe103c80f2f6eb86d85f4eb4d2bf17d25
+SHA1: 4b28346c6610e377fa4bcc37a4a816b66bc5aa17
+MD5sum: b7acbf5f778f46ad71e36ff504a95a8b
+Description: provide DebianEasy backports repositories and preferences
+
+Package: debianeasy-repo
+Version: 0.3-1
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/d/debianeasy-repo/debianeasy-repo_0.3-1_amd64.deb
+Size: 5048
+SHA256: 431f1f6f5f54177e15eac8702a8235242614223347901c2767ac8306440e1802
+SHA1: b4ca583ba463dfc881b2e4dcbbe485ff8e6ab847
+MD5sum: 3fd6dee8c0abe7658dade509920fab03
+Description: provide DEbianEasy repository
+
+Package: firmware-b43
+Version: 1.0
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/f/firmware-b43/firmware-b43_1.0_amd64.deb
+Size: 145632
+SHA256: 98bcdc63bd47b255420074a9ffe225418c13eb9f0a2ab9930fd71a4b32b3230a
+SHA1: fcba34e419c0e32b8e8d5ca2a0b73e3a40949f60
+MD5sum: b3bf5eef65acead3886958204d674da9
+Description: Linux extra firmware for b43
+
+Package: firmware-edge-installer
+Version: 0.2
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Depends: git
+Priority: optional
+Section: debianeasy
+Filename: pool/main/f/firmware-edge-installer/firmware-edge-installer_0.2_all.deb
+Size: 1128
+SHA256: 14d9dd30ac0bfb42458f2129bff1cbea6ff1bcee514eb5fddbdbe161b5bdc748
+SHA1: 3d1394628718bdb33729237db9dbd18393ae2fe6
+MD5sum: 56bb3b7eaded759bf77facf34defc287
+Description: installer from edge firmware from kernel.org
+
+Package: grub-btrfs
+Version: 4.11-0kali2
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 58
+Depends: btrfs-progs, grub2-common, gawk
+Homepage: https://github.com/Antynea/grub-btrfs
+Priority: optional
+Section: utils
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.11-0kali2_all.deb
+Size: 13644
+SHA256: ddebe2a9236f1462f5bf64bcce70f6ec59b63a38d388f9b743cf2d1975c27a16
+SHA1: 88cd67f86cd5ec9c527666aa83acd3684133ae08
+MD5sum: 4ea2a9b72ba84b6ca700604a3feca1b7
+Description: Adds "btrfs snapshots" to the grub menu
+ This package improves grub by adding "btrfs snapshots" to the grub menu
+
+Package: linux-backports-amd64
+Version: 6.4.4-3~bpo12+1
+Architecture: amd64
+Depends: linux-image-backports-amd64, linux-headers-backports-amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-backports-amd64/linux-backports-amd64_6.4.4-3~bpo12+1_amd64.deb
+Size: 852
+SHA256: fe0029f552d1968d1f3bf5dbafeb161f40b61763be246789713a46e63c0e2e71
+SHA1: 38360f502cf24794b5eed200c5bf9d913b159984
+MD5sum: f8d99e51ee9bba3d0fdb9363d0bb3661
+Description: backports Linux kernel of Debian Stable for amd64
+
+Package: linux-default-amd64
+Version: 6.1.38-4
+Architecture: amd64
+Depends: linux-image-default-amd64, linux-headers-default-amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-default-amd64/linux-default-amd64_6.1.38-4_amd64.deb
+Size: 836
+SHA256: e9d3bde8a5b03d32b4e89f6e7dc6d29915319f95282910470fb962e9fe1af910
+SHA1: 02f8f2fec7c2c10340ace8d9bbf36a832e67bc75
+MD5sum: e42cbde6cb682eec5aa4394da72af59e
+Description: default Linux kernel of Debian Stable for amd64
+
+Package: linux-edge-amd64
+Version: 6.4.13-1
+Architecture: amd64
+Depends: linux-image-edge-amd64, linux-headers-edge-amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.4.13-1_amd64.deb
+Size: 824
+SHA256: 27da3fe35522e7ab5ee77b1b1f58fb5cb4c2216ddb76afbcf13307393ee854ee
+SHA1: 9deea9173d1d58ed622c56d32cb7f867cf3da050
+MD5sum: 18fac2ba598bb569b2729a2fb749e2a1
+Description: edge Linux kernel of Debian Stable for amd64
+
+Package: linux-experimental-amd64
+Version: 6.5.1-1~exp1
+Architecture: amd64
+Depends: linux-image-experimental-amd64, linux-headers-experimental-amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-experimental-amd64/linux-experimental-amd64_6.5.1-1~exp1_amd64.deb
+Size: 848
+SHA256: 50cf4d2b9c9133a701e934dd283f0efd6cf88c790a9286f2e2df23e5111a04c2
+SHA1: a7f19cca5fa77a9c05f8a241f77d6d8bcfe13d01
+MD5sum: 098e6906144adb7acbb6e386e3fd550a
+Description: experimental Linux kernel of Debian Stable for amd64
+
+Package: linux-headers-backports-amd64
+Source: linux-signed-amd64 (6.4.4+3~bpo12+1)
+Version: 6.4.4-3~bpo12+1
+Architecture: amd64
+Maintainer: CicadaSeventeen <1700011628@pku.edu.cn>
+Installed-Size: 13
+Depends: linux-headers-6.4.0-0.deb12.2-amd64 (= 6.4.4-3~bpo12+1)
+Provides: linux-headers-generic
+Built-Using: linux (= 6.4.4-3~bpo12+1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-headers-backports-amd64_6.4.4-3~bpo12+1_amd64.deb
+Size: 1108
+SHA256: 739be33212a8d43a853f96ece85c6a8508cc7288b1d75f401f0675d93efb20ee
+SHA1: 96623b3351d6ade6402b50bf997ebdff4a0ba7aa
+MD5sum: 2616c941e67ed70978b046fb7456edb1
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-default-amd64
+Source: linux-signed-amd64 (6.1.38+4)
+Version: 6.1.38-4
+Architecture: amd64
+Maintainer: CicadaSeventeen <1700011628@pku.edu.cn>
+Installed-Size: 13
+Depends: linux-headers-6.1.0-11-amd64 (= 6.1.38-4)
+Provides: linux-headers-generic
+Built-Using: linux (= 6.1.38-4)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-headers-default-amd64_6.1.38-4_amd64.deb
+Size: 1084
+SHA256: 2682855392c3f843e2eb3708f6e156e65b17272e1b7d608215d1474dfab47650
+SHA1: 2f08c83cd35492cd843ea2ceaa6a251479233eea
+MD5sum: 67a34fa4466b121727a45d9eb3add176
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-edge-amd64
+Source: linux-signed-amd64 (6.4.13+1)
+Version: 6.4.13-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-headers-6.4.0-4-amd64 (= 6.4.13-1)
+Provides: linux-headers-generic
+Built-Using: linux (= 6.4.13-1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-edge-amd64_6.4.13-1_amd64.deb
+Size: 1080
+SHA256: a9b8c259a644a71fa9f30939dc6fcac9c126a60ad5f26866b796343a6d1b593c
+SHA1: 07dfd83e5b5de6d8a375922011b53edf74840eed
+MD5sum: c5f800e3ef21207db856cde6e168777d
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-experimental-amd64
+Source: linux-signed-amd64 (6.5.1+1~exp1)
+Version: 6.5.1-1~exp1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-headers-6.5.0-0-amd64 (= 6.5.1-1~exp1)
+Provides: linux-headers-generic
+Built-Using: linux (= 6.5.1-1~exp1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-headers-experimental-amd64_6.5.1-1~exp1_amd64.deb
+Size: 1092
+SHA256: 785e0fe7418a9763e42305b1bb0e26da78512dd03dbdc00eaa58336e86adfe24
+SHA1: 44a336a4ea90584a655a597abf83171b2fa43613
+MD5sum: 9eceb7cb94f9da9c0b203b1ac39a9c43
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-testing-amd64
+Source: linux-signed-amd64 (6.4.11+1)
+Version: 6.4.11-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-headers-6.4.0-3-amd64 (= 6.4.11-1)
+Provides: linux-headers-generic
+Built-Using: linux (= 6.4.11-1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-headers-testing-amd64_6.4.11-1_amd64.deb
+Size: 1092
+SHA256: 055458ec01fc1239f540a7a84c8ff96e592ee08ea1be336c996c3478abbc8fee
+SHA1: 314122b769191e10ddf545ca045638758a48333b
+MD5sum: 1f68e7f04ce746a37fd215693d3e0599
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-image-backports-amd64
+Source: linux-signed-amd64 (6.4.4+3~bpo12+1)
+Version: 6.4.4-3~bpo12+1
+Architecture: amd64
+Maintainer: CicadaSeventeen <1700011628@pku.edu.cn>
+Installed-Size: 13
+Depends: linux-image-6.4.0-0.deb12.2-amd64 (= 6.4.4-3~bpo12+1)
+Provides: linux-image-generic, linux-latest-modules-6.4.0-0.deb12.2-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.4.4-3~bpo12+1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-image-backports-amd64_6.4.4-3~bpo12+1_amd64.deb
+Size: 1160
+SHA256: 220061d0f7773fdf9c8698ef3397d2db8e3551b8b49ce49f7e6b3e97f4d2e01c
+SHA1: 16ed6b9674fc2864204e3573ef03cedfb35d09e6
+MD5sum: 56d2df2437e3b6de2bbcc9439c2b8c69
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-default-amd64
+Source: linux-signed-amd64 (6.1.38+4)
+Version: 6.1.38-4
+Architecture: amd64
+Maintainer: CicadaSeventeen <1700011628@pku.edu.cn>
+Installed-Size: 13
+Depends: linux-image-6.1.0-11-amd64 (= 6.1.38-4)
+Provides: linux-image-generic, linux-latest-modules-6.1.0-11-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.1.38-4)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-image-default-amd64_6.1.38-4_amd64.deb
+Size: 1140
+SHA256: d12c7dbabeeb610cff3f1ff3c860beddf8f934dd802dee8702ca2bc99332ff40
+SHA1: 42bcf461f8eca3f052763e780056eb742efff669
+MD5sum: 7cb0f860aafe131e0c9627f7c55a4f17
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-edge-amd64
+Source: linux-signed-amd64 (6.4.13+1)
+Version: 6.4.13-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-image-6.4.0-4-amd64 (= 6.4.13-1)
+Provides: linux-image-generic, linux-latest-modules-6.4.0-4-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.4.13-1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-edge-amd64_6.4.13-1_amd64.deb
+Size: 1128
+SHA256: 46b341ab5254f62f1a9c061d62f168b67cfaf42418c6e196e233d227425c7872
+SHA1: 66868c9b4e52f5304a722f01f7a3c7661aabdea8
+MD5sum: 07e29133f7ab8c7a4f5043784f43d1b1
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-experimental-amd64
+Source: linux-signed-amd64 (6.5.1+1~exp1)
+Version: 6.5.1-1~exp1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-image-6.5.0-0-amd64 (= 6.5.1-1~exp1)
+Provides: linux-image-generic, linux-latest-modules-6.5.0-0-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.5.1-1~exp1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-image-experimental-amd64_6.5.1-1~exp1_amd64.deb
+Size: 1152
+SHA256: 0b432004642d07b2ea391f7afa70c3a8049e330594fb979c0938a7356ea12b39
+SHA1: 207a0bf2f2d9714c8bae532e6a37fe3039bfad9a
+MD5sum: 3e0a7814503a4942a745abc9075a74a2
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-testing-amd64
+Source: linux-signed-amd64 (6.4.11+1)
+Version: 6.4.11-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Depends: linux-image-6.4.0-3-amd64 (= 6.4.11-1)
+Provides: linux-image-generic, linux-latest-modules-6.4.0-3-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.4.11-1)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-signed-amd64/linux-image-testing-amd64_6.4.11-1_amd64.deb
+Size: 1140
+SHA256: f8dcc565e711c6ddc9f05e1662ee83b395833524ff9471ff0e888768e239e427
+SHA1: 884d9b6c58db69c6e03a6b2d1a2b8fc7950d8969
+MD5sum: 8911eba728b3d9dfad03f76830961863
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-testing-amd64
+Version: 6.4.11-1
+Architecture: amd64
+Depends: linux-image-testing-amd64, linux-headers-testing-amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/l/linux-testing-amd64/linux-testing-amd64_6.4.11-1_amd64.deb
+Size: 836
+SHA256: 2e81ccff26eec762a3df70b68cdc30065cb7a3d897ee5de99d3a9d8e16d419bb
+SHA1: ee16cc69c2ec7bd4ca6c562f450b1735e1671f22
+MD5sum: 4e0df26f12f56953ce38e81310bb409c
+Description: testing Linux kernel of Debian Stable for amd64
+
+Package: node-locker
+Version: 0.1
+Architecture: all
+Depends: node-passwd
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/node-locker/node-locker_0.1_all.deb
+Size: 2872
+SHA256: c76e09e01142f5a751577a4838006e5339e12ebb4ab869618dbf4679ec26ec91
+SHA1: 0a7324b1935735286712af571ea87f8965a0fae1
+MD5sum: b86b0d964242dd229c48b6a1e309e49a
+Description: node's screen locker
+
+Package: node-passwd
+Version: 0.2
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/node-passwd/node-passwd_0.2_amd64.deb
+Size: 3800
+SHA256: 78ab266ed34cadafe2d2b0e941d28c5ef62e5420de3945522e65cc27ab4c1589
+SHA1: 507c2f01a6921458676c7809c819f7c4a1ceef94
+MD5sum: 9565a5b997448ce286147da6c07c5c4c
+Description: node's password detect
+
+Package: nodepm
+Version: 0.5.0
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm/nodepm_0.5.0_all.deb
+Size: 9372
+SHA256: 50ac7b2bc78de9c06bafa99ad65532263bcc9d8d91264c822e9e8e221528080e
+SHA1: c6200eb14c19f676c3b8d65c8e7c6df10c9f38e5
+MD5sum: 792e96b548340b6bcb65184c0f1e6cb0
+Description: NOne-DEsktop Power Manager
+
+Package: nodepm-tray
+Version: 0.2.4
+Architecture: all
+Depends: nodepm
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm-tray/nodepm-tray_0.2.4_all.deb
+Size: 39021388
+SHA256: 13cc483210bcf7728184891fabf8801b62ae25366715a7135abc8f5e4e45e022
+SHA1: 5dbc2a1506656de95027e600bef386b79cad9241
+MD5sum: 15a65aa31698bfb808659aab86d8fad3
+Description: nodepm tray 
+
+Package: nodepm-user
+Version: 0.2.1
+Architecture: all
+Depends: nodepm
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/n/nodepm-user/nodepm-user_0.2.1_all.deb
+Size: 1840
+SHA256: 71665232a3e2526ec6889dc5b4e03114c7e99029904d6ca618dd9776d3c59085
+SHA1: 2d6593968c4293001bcbbb99d9ac89666b4b81a1
+MD5sum: 669a08e014d5280e47512653c454c83d
+Description: nodepm non-root program
+
+Package: powermoder
+Version: 0.2.3-0
+Architecture: amd64
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Depends: python3-pydbus, python3-dbus, python3-pystray, python3-pil, python3-gi
+Recommends: tlp | tuned | power-profiles-daemon
+Priority: optional
+Section: debianeasy
+Filename: pool/main/p/powermoder/powermoder_0.2.3-0_amd64.deb
+Size: 12468
+SHA256: 8a4fc7100199f75ac2000983768ccc6bbf5bdf78bdaf76d66c26893ce2fee2b7
+SHA1: ccfa4a90c53dfbd4a0b211f4084fa07fbd913dee
+MD5sum: ef50f80e4e62daabadbbeec7e3ca50f5
+Description: A tool to switch between power managers like tlp
+
+Package: wall2notify
+Version: 0.7.1-3
+Architecture: all
+Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/w/wall2notify/wall2notify_0.7.1-3_all.deb
+Size: 2748
+SHA256: e2ba404eaa3cd4b826ab68e15053549d4a415afe7006fb773991a4b96e9b4369
+SHA1: 267ce04e7661e28759230075ea2362d6e644e796
+MD5sum: ac65d1d9123dad67f7da5d72b9709836
+Description: Send wall signal to notify-send
+
+Package: x11docker
+Version: 7.4.2-3
+Architecture: all
+Depends: bash
+Installed-Size: 450
+Sections: x11
+Recommends: nxagent, xserver-xephyr, xdotool, xauth, xinit, xclip, xutils, xserver-xorg, docker.io | podman
+Suggests: weston, xwayland
+Maintainer: Jy Deng <djy99811899@pku.edu.cn>
+Priority: optional
+Section: debianeasy
+Filename: pool/main/x/x11docker/x11docker_7.4.2-3_all.deb
+Size: 102600
+SHA256: 34443cbb6c9081ae17d8cfc850d142d46ec5fceeb5b4d8ec889fa28251465c3b
+SHA1: d3079d848bf0de2a972432427caac932f556dd37
+MD5sum: 215194eae2a247fdf0ef87932f6dbeea
+Description: A tool to run GUI applications and desktops in Linux containers with backends like podman or docker. X11docker helps to avoid X security leaks and enhance container security. Software can be installed in a deployable image with a rudimentary Linux system inside. This can help to run or deploy software that is difficult to install on several systems due to dependency issues. It is possible to run outdated versions or latest development versions side by side. Files to work on can be shared between host and container.
+

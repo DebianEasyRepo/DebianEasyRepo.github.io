@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Debian Easy repo for Bookworm
+Label: Debian Easy repo for Bookworm
+Codename: bookworm
+Date: Thu, 07 Sep 2023 08:17:51 UTC
+Architectures: amd64
+Components: main
+Description: Debian Easy repo for Bookworm
+MD5Sum:
+ 8c88a25f36c0240293f03c1d218d4c6b 50869 main/binary-amd64/Packages
+ 4b763fd33775aaa05fa877ec1c337631 12528 main/binary-amd64/Packages.gz
+ ac02e2bf7fe77a566530cecd4eba829b 154 main/binary-amd64/Release
+SHA1:
+ 93a4a1e8698f8f1f739333b7a0234234e7ec06a9 50869 main/binary-amd64/Packages
+ 13b299fa24dd5f23d9d54a33d30318846c4f92d2 12528 main/binary-amd64/Packages.gz
+ 6b705d0001ce39a7a2564f5d27c05629bcdfe645 154 main/binary-amd64/Release
+SHA256:
+ cdf3c7b86366648a67e5461b276a3dd9493148d95f64b2baaabfeac7e7cda349 50869 main/binary-amd64/Packages
+ dc6bb1e915952e4ccc8cd2079e67b50d84919ac84c83d9e561c86ac36db77994 12528 main/binary-amd64/Packages.gz
+ 8b64257acafafaaa621c6d7064eb36179e1b1c295ef0efca0afec4835cf22d04 154 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE/mnssa5qDy3ZBGN55H1CBlBUNVQFAmT5hzIACgkQ5H1CBlBU
+NVSCmQwAqK42KWQi/Q6Td0TpPQFwtmQngNet6+4oEMe2wZnH3TnTzGdrzXKENgrm
+9L55kfWCRg8h9xayat2xSZGE+5VkwyHHn6mZA/o4Q+L4SLW4lJJt8kRpJySGr2h4
+QYM9f0MDl/tj8JJYIi+H8RVk8h5j69L0rnYfkjTFEHA/Ja0VjzL5q5NUCHsmIGXy
+tNrzNabVOjH/bN0U3Nay9nCnCAjhfmoo4jhxfVaP0LL5ePFFYep97OQpEGZM1ATX
+Zr2jSQhQdYihjD0VBwk0GQ53XA+Ig0IKiR6VZmRzTxF6RvKE0Xy19Mfq+zu+wOe9
+BqlP6ARNxDPeZ57ClM6TwMslR1VTOkolD+HC7si/u6e+W2Vbp1/wQ+NwU0+n8hkn
+xl9fKbaI6nwJFuYBdDjVjPh77fjwxXVrEmwqO06tdtJsNFof9RTlVCmhuS1P+Ksk
+WdV4AUf+91BYuvdNfXhNJV3jEzMroOxLjxT8LCNnXFdTpVZn3yMJsJP/s5HSPofD
+nRGXh93v
+=W5IZ
+-----END PGP SIGNATURE-----

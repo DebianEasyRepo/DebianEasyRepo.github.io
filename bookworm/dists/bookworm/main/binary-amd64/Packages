@@ -919,22 +919,22 @@ Description: Header files for Linux amd64 configuration (meta-package)
  latest Linux kernel amd64 configuration.
 
 Package: linux-headers-testing-amd64
-Source: linux-signed-amd64 (6.4.11+1)
-Version: 6.4.11-1
+Source: linux-signed-amd64 (6.4.13+1)
+Version: 6.4.13-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.4.0-3-amd64 (= 6.4.11-1)
+Depends: linux-headers-6.4.0-4-amd64 (= 6.4.13-1)
 Provides: linux-headers-generic
-Built-Using: linux (= 6.4.11-1)
+Built-Using: linux (= 6.4.13-1)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-headers-testing-amd64_6.4.11-1_amd64.deb
-Size: 1092
-SHA256: 055458ec01fc1239f540a7a84c8ff96e592ee08ea1be336c996c3478abbc8fee
-SHA1: 314122b769191e10ddf545ca045638758a48333b
-MD5sum: 1f68e7f04ce746a37fd215693d3e0599
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-testing-amd64_6.4.13-1_amd64.deb
+Size: 1084
+SHA256: bbc68ef990db33965ff3a583419b5ea124c02c2c46a89b679bbbf7db444430fb
+SHA1: 576723b0ad9d7ec811df367353e1aeaca03d5ecb
+MD5sum: 0e8d321357b7efb8e5d079324f3b12bf
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -1024,38 +1024,38 @@ Description: Linux for 64-bit PCs (meta-package)
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-testing-amd64
-Source: linux-signed-amd64 (6.4.11+1)
-Version: 6.4.11-1
+Source: linux-signed-amd64 (6.4.13+1)
+Version: 6.4.13-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.4.0-3-amd64 (= 6.4.11-1)
-Provides: linux-image-generic, linux-latest-modules-6.4.0-3-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Built-Using: linux (= 6.4.11-1)
+Depends: linux-image-6.4.0-4-amd64 (= 6.4.13-1)
+Provides: linux-image-generic, linux-latest-modules-6.4.0-4-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.4.13-1)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-image-testing-amd64_6.4.11-1_amd64.deb
-Size: 1140
-SHA256: f8dcc565e711c6ddc9f05e1662ee83b395833524ff9471ff0e888768e239e427
-SHA1: 884d9b6c58db69c6e03a6b2d1a2b8fc7950d8969
-MD5sum: 8911eba728b3d9dfad03f76830961863
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-testing-amd64_6.4.13-1_amd64.deb
+Size: 1136
+SHA256: 55bf3fd59fe0b94255f2e13bcb033004f6d38c26b2829d41c2d5db875031a0ae
+SHA1: b5153415575c901023ddeb3e05e62b66d3a00585
+MD5sum: 68e3866ec6b7e3f3c83c429dc5447e49
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-testing-amd64
-Version: 6.4.11-1
+Version: 6.4.13-1
 Architecture: amd64
 Depends: linux-image-testing-amd64, linux-headers-testing-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-testing-amd64/linux-testing-amd64_6.4.11-1_amd64.deb
+Filename: pool/main/l/linux-testing-amd64/linux-testing-amd64_6.4.13-1_amd64.deb
 Size: 836
-SHA256: 2e81ccff26eec762a3df70b68cdc30065cb7a3d897ee5de99d3a9d8e16d419bb
-SHA1: ee16cc69c2ec7bd4ca6c562f450b1735e1671f22
-MD5sum: 4e0df26f12f56953ce38e81310bb409c
+SHA256: 2f026809a093313ff9a77091e4e9a75637ac1f6b177c6ba1f6a1c16f54fb9e49
+SHA1: e82cbc5e2918a9f38a1cbcbff534ab109dafbe46
+MD5sum: 75600bbc70cd1fbf62d8aa5e8aa132eb
 Description: testing Linux kernel of Debian Stable for amd64
 
 Package: node-locker

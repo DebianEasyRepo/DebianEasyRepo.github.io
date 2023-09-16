@@ -708,30 +708,30 @@ Description: Applet providing per workspace wallpaper
  workspaces.
 
 Package: debianeasy-backports
-Version: 0.3-1
+Version: 0.3-2
 Architecture: amd64
 Depends: fasttrack-archive-keyring
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/d/debianeasy-backports/debianeasy-backports_0.3-1_amd64.deb
-Size: 4880
-SHA256: 1841e1c1696b7534911fddbc5141ddabe103c80f2f6eb86d85f4eb4d2bf17d25
-SHA1: 4b28346c6610e377fa4bcc37a4a816b66bc5aa17
-MD5sum: b7acbf5f778f46ad71e36ff504a95a8b
+Filename: pool/main/d/debianeasy-backports/debianeasy-backports_0.3-2_amd64.deb
+Size: 1320
+SHA256: 6b5e0b98bd09daaf2fbd7a53f2ccd94209506ea55ca758a535da8d3918b2aebc
+SHA1: 00df938563665156e0080c1d6cc8e54f51f7670e
+MD5sum: 7c90ba4a94211c81652c65340c132089
 Description: provide DebianEasy backports repositories and preferences
 
 Package: debianeasy-repo
-Version: 0.3-1
+Version: 0.3-2
 Architecture: amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/d/debianeasy-repo/debianeasy-repo_0.3-1_amd64.deb
-Size: 5048
-SHA256: 431f1f6f5f54177e15eac8702a8235242614223347901c2767ac8306440e1802
-SHA1: b4ca583ba463dfc881b2e4dcbbe485ff8e6ab847
-MD5sum: 3fd6dee8c0abe7658dade509920fab03
+Filename: pool/main/d/debianeasy-repo/debianeasy-repo_0.3-2_amd64.deb
+Size: 5072
+SHA256: 2d2a73479a37c931380517b6ac62bb475ac45fecccf7b47379aec0687c0b2593
+SHA1: 576f2b25fb27bc78ac3052667e05b3675ffedfcc
+MD5sum: f3e2429d7ce37c99027e095fb9fdb949
 Description: provide DEbianEasy repository
 
 Package: firmware-b43

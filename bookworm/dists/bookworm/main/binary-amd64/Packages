@@ -1060,3 +1060,26 @@ SHA1: d3079d848bf0de2a972432427caac932f556dd37
 MD5sum: 215194eae2a247fdf0ef87932f6dbeea
 Description: A tool to run GUI applications and desktops in Linux containers with backends like podman or docker. X11docker helps to avoid X security leaks and enhance container security. Software can be installed in a deployable image with a rudimentary Linux system inside. This can help to run or deploy software that is difficult to install on several systems due to dependency issues. It is possible to run outdated versions or latest development versions side by side. Files to work on can be shared between host and container.
 
+Package: xfce4-screensaver
+Version: 4.16.0-1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1369
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libgarcon-1-0 (>= 0.1.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.4), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.18.0), libsystemd0, libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.13.0), libxfconf-0-3 (>= 4.6.0), libxklavier16 (>= 5.0), libxss1
+Recommends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-libxfce4util-1.0, gir1.2-xfconf-0, python3, python3-gi
+Homepage: https://docs.xfce.org/apps/screensaver/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-screensaver/xfce4-screensaver_4.16.0-1_amd64.deb
+Size: 335636
+SHA256: 4b23907c93f214c19b83364956fae68a269486a0fe7693b229079080d0117c2b
+SHA1: 99cdb7e537aaf5dbc4d965ef119ced6983b9ad76
+MD5sum: 8fef4abfaec269aa63066f6fb2da165b
+Description: screen saver and locker that is integrated with the xfce4 desktop
+ Xfce Screensaver is a screen saver and locker that aims to have simple,
+ sane, secure defaults and be well integrated with the Xfce desktop.
+ .
+ It is a port of MATE Screensaver, itself a port of GNOME Screensaver.
+ It has been tightly integrated with the Xfce desktop, utilizing Xfce
+ libraries and the Xfconf configuration backend.
+

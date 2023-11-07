@@ -1,19 +1,19 @@
 Origin: Debian Easy repo for Bookworm
 Label: Debian Easy repo for Bookworm
 Codename: bookworm
-Date: Sun, 05 Nov 2023 09:05:16 UTC
+Date: Tue, 07 Nov 2023 16:32:01 UTC
 Architectures: amd64
 Components: main
 Description: Debian Easy repo for Bookworm
 MD5Sum:
- 68bb15b637db837b64c96271a55adaa2 46299 main/binary-amd64/Packages
- 033313a2d6761cdb9ea79bd0ae433b56 11706 main/binary-amd64/Packages.gz
+ 86da5a47722b62bfb2389a8bcbb61430 47728 main/binary-amd64/Packages
+ c85b31059a301af21867f47048a1bc01 12124 main/binary-amd64/Packages.gz
  ac02e2bf7fe77a566530cecd4eba829b 154 main/binary-amd64/Release
 SHA1:
- dcd64220578521ee0210574ef40f327fe6a5366b 46299 main/binary-amd64/Packages
- 8bea08d99cfcfd9c8d75e79737ea5e6a09dd0091 11706 main/binary-amd64/Packages.gz
+ 832928d259dc6ef5c11bea2cc3a2b1d96a9d5d24 47728 main/binary-amd64/Packages
+ 5e08f55e5ff796d6634bdbe9358203b957767963 12124 main/binary-amd64/Packages.gz
  6b705d0001ce39a7a2564f5d27c05629bcdfe645 154 main/binary-amd64/Release
 SHA256:
- f28b7250aec478959f4edc9a374f2e80aa01680570db5a8387c5e2c979999c77 46299 main/binary-amd64/Packages
- 8ff065ff70b49ccffdd854f4eb7a152866937140de1abbce4c09254fc4ac95c4 11706 main/binary-amd64/Packages.gz
+ b263655ab9623eaf00babdb0d40b8f12591a01f6160e5277f877ac3db943254b 47728 main/binary-amd64/Packages
+ 97079eeee480a036d1b486df29c9c30a7a5c49c4c4eadd00cd33e0182abbd8c1 12124 main/binary-amd64/Packages.gz
  8b64257acafafaaa621c6d7064eb36179e1b1c295ef0efca0afec4835cf22d04 154 main/binary-amd64/Release

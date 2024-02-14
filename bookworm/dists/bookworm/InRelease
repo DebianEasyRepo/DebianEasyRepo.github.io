@@ -4,33 +4,33 @@ Hash: SHA512
 Origin: Debian Easy repo for Bookworm
 Label: Debian Easy repo for Bookworm
 Codename: bookworm
-Date: Wed, 24 Jan 2024 14:36:02 UTC
+Date: Wed, 14 Feb 2024 07:02:23 UTC
 Architectures: amd64
 Components: main
 Description: Debian Easy repo for Bookworm
 MD5Sum:
- a5fcc1a579817edc86e37e6ddca2d84b 47710 main/binary-amd64/Packages
- 3163371e46e2c24f3a56eb14cc0707d8 12131 main/binary-amd64/Packages.gz
+ bb27aab2f9d74e3b82323daceb8de3a5 47710 main/binary-amd64/Packages
+ ed71defedbdeb62b7513d0e4db1b44c7 12128 main/binary-amd64/Packages.gz
  ac02e2bf7fe77a566530cecd4eba829b 154 main/binary-amd64/Release
 SHA1:
- 86212c9a35e5095816a9b1ca08b5900bf9a6d395 47710 main/binary-amd64/Packages
- 2dcd6d356d309cb941f42caae6d5f3cde58e7d87 12131 main/binary-amd64/Packages.gz
+ b1f3959a4cb51e592665f2aad012cc8873fe5f30 47710 main/binary-amd64/Packages
+ 25ebc4ccbb023e082750dab0bd29c7f701262c10 12128 main/binary-amd64/Packages.gz
  6b705d0001ce39a7a2564f5d27c05629bcdfe645 154 main/binary-amd64/Release
 SHA256:
- a9e6b3eb4dbc3c8eec1858152bb31fedf734325a2ab601906db656c73ac05663 47710 main/binary-amd64/Packages
- f8fffc08bc34cf5322aab8788678558d6e8c6cdbe8fd634a0b1b6228d85c6444 12131 main/binary-amd64/Packages.gz
+ acd4b502ae625c91e877fdc90893356332213996a0713d629504dcd6d97e8075 47710 main/binary-amd64/Packages
+ cd1b87402d4708e123a25fc39bbab055274c4a709dfccfbbe1f0ac5dfb810f69 12128 main/binary-amd64/Packages.gz
  8b64257acafafaaa621c6d7064eb36179e1b1c295ef0efca0afec4835cf22d04 154 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/mnssa5qDy3ZBGN55H1CBlBUNVQFAmWxIFYACgkQ5H1CBlBU
-NVTZ3gv9Hh1iUB+FSXBAA4vngFiRaTbXx32aMywPV9CPekrsv/Wsk9zdgfadH5XB
-DhNHOS/HRgyMmF7cPqQQjgwAr05xGNeSWwm05SV/oZZdVl4Iqn/xTVGGmV7AFRsq
-sjtVYYaLyQQ8ABArpRvPwbXXpojc4nBC5vCHpJXO1SxCIChnL9UN7ty332cb5j8v
-8b9HCBqJCMERVwqvS91UXc6MdY3xCEC01kdg2lb7WLmETQfi7/YsgXpMH0e/eUd1
-NR3MmosArH9xDAwuzm0+931+R3pxJapkswHhypqnYy+5te7u29rq+c32NpJyEqB4
-gWJo1DigviG8zkozMB+J6qmp/vmP7pCrh+ju/gA3YFYlwWcIRO+AP9W/vrfJAA1N
-V73fmhQhnb7/nj6zbUcAx6RIFeUhFT4P924crRGdps2KFjTdJmhzReYrFndYHaok
-NZPtFcKMWjXKTCryBvr/G/62rPp4Ng7Q8o4OvH9pi0GPL/MPF3QXTKtzBWa9kytD
-xJFOXZ12
-=GHmI
+iQGzBAEBCgAdFiEE/mnssa5qDy3ZBGN55H1CBlBUNVQFAmXMZYIACgkQ5H1CBlBU
+NVQcnAv/Y06b3bfBNni68nv8udvj+DIq84S8c4w87UxSbZ7KkuSgL79W7wP6BN3v
+B/uV+qIkq0YkYeqz+c1TcFEtENMGU1in5dgpTOQbjOZLXMpRjgiH+oGF8J+yxLAo
+5Io+TRHgrSIZoQNXMRdWBobh4PmfdakBy6U86EvNTIJQ9ex1JhddunA+2hG9j0xa
+zgLV2Qj2EBkowZlCM+1p56uuZxJspKWEftR2blTMnRkZSiDzI58l+ZL/WlvoWhSQ
+YK9Aaz/jT2FsQzSZCGg+E7tpa2xuwoceBgjCGYLUhlsTvyDQEVazAyGAWdOXN7C9
+7E8xZx6y3/MIMkbpK4jM9cDwlUTY+q91+/LVS4kxLkhwajxYXFWNT4dp4y8oueia
+krTLZQcuG9L0UXh7OB/c69WDxhI0L+yEJX7JcIisxyYNPXZfhUtLjAPPcaEYj1uP
+tHcIyx21jO4zj8h9NENFEGrevodqPWsjP36+8O3i+Z7KXb4jvgOJYnv0ssWVhItS
+x/F9Harx
+=1spH
 -----END PGP SIGNATURE-----

@@ -779,17 +779,17 @@ Description: Adds "btrfs snapshots" to the grub menu
  This package improves grub by adding "btrfs snapshots" to the grub menu
 
 Package: linux-backports-amd64
-Version: 6.5.10-1~bpo12+1
+Version: 6.6.13-1~bpo12+1
 Architecture: amd64
 Depends: linux-image-backports-amd64, linux-headers-backports-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
-Section: debianeasy
-Filename: pool/main/l/linux-backports-amd64/linux-backports-amd64_6.5.10-1~bpo12+1_amd64.deb
+Section: deebianeasy
+Filename: pool/main/l/linux-backports-amd64/linux-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
 Size: 852
-SHA256: c50d4ba575428a601b251c07fcc454e773db10f8a9bf5871ef770d0c0e5561aa
-SHA1: 3a00e44ed24b19d61976f2fe2f4cfb61efc866ae
-MD5sum: 04cc3873fc9010e28e4c810f556f4c49
+SHA256: 6cf03d92edcc1d4e8b824b01d028e923ad9358bb89bfa0fe38b12c0f02657af4
+SHA1: 0b41eb70e999fb046f1ffe8a745c40b20a8fd130
+MD5sum: 8914315583edf3a12fbe9767a6d8cd10
 Description: backports Linux kernel of Debian Stable for amd64
 
 Package: linux-default-amd64
@@ -821,22 +821,21 @@ MD5sum: fa9ba217b82bd9fedd50aee91e264a31
 Description: edge Linux kernel of Debian Stable for amd64
 
 Package: linux-headers-backports-amd64
-Source: linux-signed-amd64 (6.5.10+1~bpo12+1)
-Version: 6.5.10-1~bpo12+1
+Source: linux-signed-amd64 (6.6.13+1~bpo12+1)
+Version: 6.6.13-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.5.0-0.deb12.4-amd64 (= 6.5.10-1~bpo12+1)
+Depends: linux-headers-6.6.13+bpo-amd64 (= 6.6.13-1~bpo12+1)
 Provides: linux-headers-generic
-Built-Using: linux (= 6.5.10-1~bpo12+1)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: debianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-headers-backports-amd64_6.5.10-1~bpo12+1_amd64.deb
-Size: 1112
-SHA256: 68e1ad2fe43290f9900738310006934c0c68b918326c5eb413fd3cc0e080b5ff
-SHA1: c7f80f110489e1adf3e677b38a78a3a920c7e27c
-MD5sum: 26f4823d516f1993b5515129bfbe1b70
+Section: deebianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
+Size: 1096
+SHA256: 80c1a31c634deb513c99e368e500ea06fb5bc1674b6a990a5ac493e5c36b31bd
+SHA1: 56e5560186cfd12d67ea0c9ce44f64932e7cf929
+MD5sum: 90edcef98a0a81c06c4c6dbed3fbcaa5
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -883,22 +882,21 @@ Description: Header files for Linux amd64 configuration (meta-package)
  latest Linux kernel amd64 configuration.
 
 Package: linux-image-backports-amd64
-Source: linux-signed-amd64 (6.5.10+1~bpo12+1)
-Version: 6.5.10-1~bpo12+1
+Source: linux-signed-amd64 (6.6.13+1~bpo12+1)
+Version: 6.6.13-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.5.0-0.deb12.4-amd64 (= 6.5.10-1~bpo12+1)
-Provides: linux-image-generic, linux-latest-modules-6.5.0-0.deb12.4-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Built-Using: linux (= 6.5.10-1~bpo12+1)
+Depends: linux-image-6.6.13+bpo-amd64 (= 6.6.13-1~bpo12+1)
+Provides: linux-image-generic, linux-latest-modules-6.6.13+bpo-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: debianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-image-backports-amd64_6.5.10-1~bpo12+1_amd64.deb
-Size: 1168
-SHA256: 0d1fc10f26ace8c5d355aae298b0ce1b0d9cc243e156244981d596d038afd731
-SHA1: 1847fcf2b22b0419bda5d6bd0afc4a324a5d8563
-MD5sum: bcc4055b858c89d81cdb96d771be7e1b
+Section: deebianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
+Size: 1144
+SHA256: 74918e0973315ec4815ec80342f8a4a076121727d7ebafc5ebf1a7c8d6fd430e
+SHA1: c82769def1bb7e89861140a22daec4f5cac7fc87
+MD5sum: 5114c45a94484a9fad3135cf0f9fd75d
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.

@@ -779,165 +779,165 @@ Description: Adds "btrfs snapshots" to the grub menu
  This package improves grub by adding "btrfs snapshots" to the grub menu
 
 Package: linux-backports-amd64
-Version: 6.6.13-1~bpo12+1
+Version: 6.7.12-1~bpo12+1
 Architecture: amd64
 Depends: linux-image-backports-amd64, linux-headers-backports-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-backports-amd64/linux-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
+Section: debianeasy
+Filename: pool/main/l/linux-backports-amd64/linux-backports-amd64_6.7.12-1~bpo12+1_amd64.deb
 Size: 852
-SHA256: 6cf03d92edcc1d4e8b824b01d028e923ad9358bb89bfa0fe38b12c0f02657af4
-SHA1: 0b41eb70e999fb046f1ffe8a745c40b20a8fd130
-MD5sum: 8914315583edf3a12fbe9767a6d8cd10
+SHA256: 21bbb5a71ab802cd209e5452cb18863d2e7ea8c72fcf8a57fba23c65756f7fd5
+SHA1: af2d565bcd7c64e487e983d8d78fba6ca367bb8d
+MD5sum: 601f2032cbb2812fc162710aa36c4ccc
 Description: backports Linux kernel of Debian Stable for amd64
 
 Package: linux-default-amd64
-Version: 6.1.76-1
+Version: 6.1.90-1
 Architecture: amd64
 Depends: linux-image-default-amd64, linux-headers-default-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-default-amd64/linux-default-amd64_6.1.76-1_amd64.deb
+Section: debianeasy
+Filename: pool/main/l/linux-default-amd64/linux-default-amd64_6.1.90-1_amd64.deb
 Size: 836
-SHA256: a5a7eaf74da96fd0a1f8e134086090a8d8755aaeca6b6b3caf0d08ef5093ef88
-SHA1: dfec6b494d2f2112512ad5d808f586cc33c37d23
-MD5sum: b500e5246cf39f95d0802c83599a3a51
+SHA256: f79170263d46a04e89cc2daccbe6ff0b1aed0542fe79a07d8e8290f03c03bf11
+SHA1: 780f1b4705264923edfbe9d15151cb95f780fbb1
+MD5sum: a18526476f49010facba859d15670063
 Description: default Linux kernel of Debian Stable for amd64
 
 Package: linux-edge-amd64
-Version: 6.7.9-2
+Version: 6.8.12-1
 Architecture: amd64
 Depends: linux-image-edge-amd64, linux-headers-edge-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.7.9-2_amd64.deb
-Size: 828
-SHA256: 8094259b1d6c6bc98bcca49db7bf68c9a7d216100fbe6fe8093483667d206f7d
-SHA1: 679c04889ff1464a3f433150a588baa93339d00c
-MD5sum: 1100da20398e43313c59db096bb72419
+Section: debianeasy
+Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.8.12-1_amd64.deb
+Size: 832
+SHA256: 44108b91119cab456fb2bb5be3f0a55bb5c9f789a0b0eee1b87f72fd0717d531
+SHA1: e0082997c39c7e5d839e1185fa8a1b70c2f60ee7
+MD5sum: 865c60b01b127da064b41846956ed337
 Description: edge Linux kernel of Debian Stable for amd64
 
 Package: linux-headers-backports-amd64
-Source: linux-signed-amd64 (6.6.13+1~bpo12+1)
-Version: 6.6.13-1~bpo12+1
+Source: linux-signed-amd64 (6.7.12+1~bpo12+1)
+Version: 6.7.12-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.6.13+bpo-amd64 (= 6.6.13-1~bpo12+1)
+Depends: linux-headers-6.7.12+bpo-amd64 (= 6.7.12-1~bpo12+1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-headers-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
-Size: 1096
-SHA256: 80c1a31c634deb513c99e368e500ea06fb5bc1674b6a990a5ac493e5c36b31bd
-SHA1: 56e5560186cfd12d67ea0c9ce44f64932e7cf929
-MD5sum: 90edcef98a0a81c06c4c6dbed3fbcaa5
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-backports-amd64_6.7.12-1~bpo12+1_amd64.deb
+Size: 1092
+SHA256: 7bb66f1ad6d261c07de40b7900c368dca2a82ad5c6396c621bee9f33fa432a9e
+SHA1: 467069f60a53c033dabca2836b048b9128f40497
+MD5sum: 907a430d9f72d13d2c7ced0a561d885e
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
 Package: linux-headers-default-amd64
-Source: linux-signed-amd64 (6.1.76+1)
-Version: 6.1.76-1
+Source: linux-signed-amd64 (6.1.90+1)
+Version: 6.1.90-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.1.0-18-amd64 (= 6.1.76-1)
+Depends: linux-headers-6.1.0-21-amd64 (= 6.1.90-1)
 Provides: linux-headers-generic
-Built-Using: linux (= 6.1.76-1)
+Built-Using: linux (= 6.1.90-1)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-headers-default-amd64_6.1.76-1_amd64.deb
-Size: 1088
-SHA256: 6d3eb8fe8a6f67a6495456e85e8243ddaf0cd1ebb62969236c71d313ea5105d6
-SHA1: a25fc180b997ad37e72dc162ff5ad639c0035425
-MD5sum: a891871392dae45aed8e773a483856e7
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-default-amd64_6.1.90-1_amd64.deb
+Size: 1092
+SHA256: 83d57aa2e5e5fbc2928216b18829e60a898398328a1ca211e98af27abbc595b6
+SHA1: ff89d336405009e9392160615ccda74e9ba79ea9
+MD5sum: 16515efe60662c88408b884cd12dea15
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
 Package: linux-headers-edge-amd64
-Source: linux-signed-amd64 (6.7.9+2)
-Version: 6.7.9-2
+Source: linux-signed-amd64 (6.8.12+1)
+Version: 6.8.12-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.7.9-amd64 (= 6.7.9-2)
+Depends: linux-headers-6.8.12-amd64 (= 6.8.12-1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-headers-edge-amd64_6.7.9-2_amd64.deb
-Size: 1064
-SHA256: fdcefec6b3f2554486aa6004cdc26514d94839a66830c9d80b6e3df7b2836e2e
-SHA1: 2fe481287d06499423887748cd29868444500dad
-MD5sum: a315abbba5d769784809c2abe5aadaa3
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-headers-edge-amd64_6.8.12-1_amd64.deb
+Size: 1068
+SHA256: afcdb8731ff1a554c47cc28c35ad2a4b53480faee783095c15a96e126acdb4e2
+SHA1: a82ea53c226f1bab5df805de20095ffe5dc262f6
+MD5sum: 4dfe628df9a1918eace3d1d93907d7d3
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
 Package: linux-image-backports-amd64
-Source: linux-signed-amd64 (6.6.13+1~bpo12+1)
-Version: 6.6.13-1~bpo12+1
+Source: linux-signed-amd64 (6.7.12+1~bpo12+1)
+Version: 6.7.12-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.6.13+bpo-amd64 (= 6.6.13-1~bpo12+1)
-Provides: linux-image-generic, linux-latest-modules-6.6.13+bpo-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.7.12+bpo-amd64 (= 6.7.12-1~bpo12+1)
+Provides: linux-image-generic, linux-latest-modules-6.7.12+bpo-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-image-backports-amd64_6.6.13-1~bpo12+1_amd64.deb
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-backports-amd64_6.7.12-1~bpo12+1_amd64.deb
 Size: 1144
-SHA256: 74918e0973315ec4815ec80342f8a4a076121727d7ebafc5ebf1a7c8d6fd430e
-SHA1: c82769def1bb7e89861140a22daec4f5cac7fc87
-MD5sum: 5114c45a94484a9fad3135cf0f9fd75d
+SHA256: 363d8f1a5beef9abe3cd81c05386fdc9ebe349202c922aabb66e26ec000b555f
+SHA1: 213d187493f10a3c85ff499aa0a030774593ec74
+MD5sum: d5df34801bea06c3e11b1a2c025c5b5f
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-default-amd64
-Source: linux-signed-amd64 (6.1.76+1)
-Version: 6.1.76-1
+Source: linux-signed-amd64 (6.1.90+1)
+Version: 6.1.90-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.1.0-18-amd64 (= 6.1.76-1)
-Provides: linux-image-generic, linux-latest-modules-6.1.0-18-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Built-Using: linux (= 6.1.76-1)
+Depends: linux-image-6.1.0-21-amd64 (= 6.1.90-1)
+Provides: linux-image-generic, linux-latest-modules-6.1.0-21-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Built-Using: linux (= 6.1.90-1)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-image-default-amd64_6.1.76-1_amd64.deb
-Size: 1136
-SHA256: 0cbd8da1a801ad0c509765645d2876199b9fb7212ac6cdcb0fef220bad0c1519
-SHA1: 95373c7c058643c2cfdea267096010be8ffb175b
-MD5sum: 2ca142deece114ee5e84f3269ca03f02
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-default-amd64_6.1.90-1_amd64.deb
+Size: 1144
+SHA256: 4c08613e1ef3bf993a99cfb89304d4b565cd19eb09f248106cce9ea666c8cda4
+SHA1: a7b1835b4315b384ede40546cc82341aa9597371
+MD5sum: dae7bd396901d711d7358724be8d646b
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-edge-amd64
-Source: linux-signed-amd64 (6.7.9+2)
-Version: 6.7.9-2
+Source: linux-signed-amd64 (6.8.12+1)
+Version: 6.8.12-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.7.9-amd64 (= 6.7.9-2)
-Provides: linux-image-generic, linux-latest-modules-6.7.9-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.8.12-amd64 (= 6.8.12-1)
+Provides: linux-image-generic, linux-latest-modules-6.8.12-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: deebianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-image-edge-amd64_6.7.9-2_amd64.deb
-Size: 1116
-SHA256: bec8c5738f10abcf57b7aa9cdfaff0bdad948fc89e811e096bb4fca6f766e913
-SHA1: 67784307fdde20c933a50334aae9a389d815c904
-MD5sum: ae9af3bb237523149edd11cbe80e85ed
+Section: debianeasy
+Filename: pool/main/l/linux-signed-amd64/linux-image-edge-amd64_6.8.12-1_amd64.deb
+Size: 1120
+SHA256: fe6bdc8fd097beb33a9c98b4033f9161131078761f9d3f86ec558b81fd757af2
+SHA1: a8eb53fdb1775c7323955fff3f72f1826ea96f1b
+MD5sum: dbb087f70f6acdc2c765036af564070e
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.

@@ -807,17 +807,17 @@ MD5sum: 5e43a1131fc953cb1c1d42ae26e7f70e
 Description: default Linux kernel of Debian Stable for amd64
 
 Package: linux-edge-amd64
-Version: 6.12.6-1
+Version: 6.12.8-1
 Architecture: amd64
 Depends: linux-image-edge-amd64, linux-headers-edge-amd64
 Maintainer: CicadaSeventeen <https://github.com/CicadaSeventeen>
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.12.6-1_amd64.deb
-Size: 828
-SHA256: df41e8d309396a40cd2dceb9f7fa6905a2e55b3a570eaf49ca1b40a17f454e4c
-SHA1: 00b3baf6d7fac23f7a4322be53d029508d4662ea
-MD5sum: b75c482d6599ece5e43671cf16106593
+Filename: pool/main/l/linux-edge-amd64/linux-edge-amd64_6.12.8-1_amd64.deb
+Size: 832
+SHA256: 085ae62b9f1d6ec7d260267a2144f4f19aabc355965035ff273de8fe9a6e7b7b
+SHA1: b52211ca372689558225a397b3d94d3294224e28
+MD5sum: dff992ea85a3ac7b0f4e2a97c396160c
 Description: edge Linux kernel of Debian Stable for amd64
 
 Package: linux-headers-backports-amd64
@@ -862,21 +862,21 @@ Description: Header files for Linux amd64 configuration (meta-package)
  latest Linux kernel amd64 configuration.
 
 Package: linux-headers-edge-amd64
-Source: linux-signed-amd64 (6.12.6+1)
-Version: 6.12.6-1
+Source: linux-signed-amd64 (6.12.8+1)
+Version: 6.12.8-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.12.6-amd64 (= 6.12.6-1)
+Depends: linux-headers-6.12.8-amd64 (= 6.12.8-1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-headers-edge-amd64_6.12.6-1_amd64.deb
-Size: 1060
-SHA256: 9e6ddbfede235e7f0f7e99f4fa7620e4dc76670b04c62e92bafb86e07daa09ae
-SHA1: f075f5026d480b2b0e63325b2da3a40978624ab8
-MD5sum: 6e5b0e8dd4e7a46f98af5097fef5b8ed
+Filename: pool/main/l/linux-signed-amd64/linux-headers-edge-amd64_6.12.8-1_amd64.deb
+Size: 1068
+SHA256: d029149e1bac4c7a302fe55376a7f4494e0e59ea3d5f8193c2ca50398734d250
+SHA1: 3c20867d0eeb992ef1125b1cff0987a78377947e
+MD5sum: 1a099f42221feadc8dab2f6ecf6876bf
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -923,21 +923,21 @@ Description: Linux for 64-bit PCs (meta-package)
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-edge-amd64
-Source: linux-signed-amd64 (6.12.6+1)
-Version: 6.12.6-1
+Source: linux-signed-amd64 (6.12.8+1)
+Version: 6.12.8-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.12.6-amd64 (= 6.12.6-1)
-Provides: linux-image-generic, linux-latest-modules-6.12.6-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.8-amd64 (= 6.12.8-1)
+Provides: linux-image-generic, linux-latest-modules-6.12.8-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debianeasy
-Filename: pool/main/l/linux-signed-amd64/linux-image-edge-amd64_6.12.6-1_amd64.deb
-Size: 1116
-SHA256: 51cb7f813c02eeb12d8b4614f99e1ec731848f03f988d0515345939ca62bf958
-SHA1: f5b628bb482d33e4f390e19792de7478e423a932
-MD5sum: a55929718b9798a9d2753e67a3d389d2
+Filename: pool/main/l/linux-signed-amd64/linux-image-edge-amd64_6.12.8-1_amd64.deb
+Size: 1124
+SHA256: 525dca259cd69961a01cab92b3be5e1ed5d13cf175b3657ff970ebe7bcaab4d9
+SHA1: 5d525babcd838ea51599504f2c580aadfad93049
+MD5sum: a812598e1c6e32e06ccefa9082cb7229
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
